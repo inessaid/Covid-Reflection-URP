@@ -348,7 +348,7 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: 
+  cameraUsageDescription: Augmented Reality requires the camera
   locationUsageDescription: 
   microphoneUsageDescription: 
   bluetoothUsageDescription: 
@@ -599,6 +599,7 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
     1: UNITY_CCU
+    4: UNITY_CCU
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
