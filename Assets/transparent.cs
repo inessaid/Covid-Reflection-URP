@@ -7,9 +7,8 @@ using UnityEngine.XR.ARFoundation;
 public class transparent : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Material mymaterial;
-    public GameObject gb;
-    public GameObject gameObject;
+   
+    public GameObject mycamera, body;
     void Start()
     {
         // gb = MarsRuntimeUtils.GetActiveCamera(true).GetComponent<ARCameraManager>().gameObject;
@@ -27,6 +26,8 @@ public class transparent : MonoBehaviour
 
     void wakeup()
     {
-        gameObject.active = true;
+        mycamera.active = true;
+        gameObject.transform.position = body.transform.position + new Vector3(0, 2, 0);
+        
     }
 }
