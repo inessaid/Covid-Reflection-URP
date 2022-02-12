@@ -7,7 +7,8 @@ using UnityEngine.XR.ARFoundation;
 public class transparent : MonoBehaviour
 {
     // Start is called before the first frame update
-   
+
+    public float distance;
     public GameObject mycamera, body;
     void Start()
     {
@@ -27,7 +28,7 @@ public class transparent : MonoBehaviour
     void wakeup()
     {
         mycamera.active = true;
-        gameObject.transform.position = body.transform.position + new Vector3(0, 2, 0);
+        mycamera.transform.position = body.transform.position + new Vector3(0, 0, distance);
         
     }
 }
