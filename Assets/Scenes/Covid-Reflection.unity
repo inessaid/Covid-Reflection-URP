@@ -408,7 +408,7 @@ MonoBehaviour:
   mycamera: {fileID: 225529445}
   body: {fileID: 1593930948}
   UIPrefab: {fileID: 1171187452096611196, guid: 5a4898692049c4061bd9fd8393fca88c, type: 3}
-  x: 0.6
+  x: 0.4
   y: 0.9
   z: 0
 --- !u!4 &231267196

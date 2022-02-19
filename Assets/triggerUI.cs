@@ -5,6 +5,7 @@ using UnityEngine;
 public class triggerUI : MonoBehaviour
 {
     public GameObject TopLeftUI;
+    public GameObject body;
     
     // Start is called before the first frame update
     void Start()
@@ -16,17 +17,18 @@ public class triggerUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        body = GameObject.Find("Body");
+        this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, body.transform.position.z);
     }
 
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Triggered");
-        //TopLeftUI.SetActive(true);
+        
         GameObject go = Instantiate(TopLeftUI, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
         
 
-        // go.GetComponent<RectTransform>().SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left , 0
+        
 
         
     }
