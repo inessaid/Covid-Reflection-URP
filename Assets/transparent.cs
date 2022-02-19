@@ -10,11 +10,15 @@ public class transparent : MonoBehaviour
 
     public float distance;
     public GameObject mycamera, body;
+    public GameObject UIPrefab;
+    private Vector3 prefabLocation;
+    public float x, y, z;
     void Start()
     {
         // gb = MarsRuntimeUtils.GetActiveCamera(true).GetComponent<ARCameraManager>().gameObject;
 
-        Invoke("wakeup", 5f);
+        Invoke("wakeup", 3f);
+        Invoke("ShowUI", 5f);
     }
 
     // Update is called once per frame
@@ -30,5 +34,11 @@ public class transparent : MonoBehaviour
         mycamera.active = true;
         mycamera.transform.position = body.transform.position + new Vector3(0, 0, distance);
         
+    }
+
+    void ShowUI()
+    {
+        prefabLocation = body.transform.localPosition + new Vector3(x,y,z); 
+        Instantiate(UIPrefab, prefabLocation, Quaternion.identity);
     }
 }
