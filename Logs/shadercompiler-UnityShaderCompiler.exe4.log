@@ -4,3 +4,6 @@ Cmd: initializeCompiler
 Cmd: compileComputeKernel
   insize=7732 file=C:/Users/inessaid/Documents/GitHub/Covid-Reflection-URP/Assets/VFXExport/StarDust.vfx kernel=CSMain cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=9 km=<UNITY_VERSION=202039> pKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_LIGHTMAP_DLDR_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=2427
 
+Cmd: shutdown
+
+Quitting shader compiler process
