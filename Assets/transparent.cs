@@ -9,10 +9,10 @@ public class transparent : MonoBehaviour
     // Start is called before the first frame update
 
     public float distance;
-    public GameObject mycamera, body;
+    public GameObject mycamera, body, env;
     public GameObject UIPrefab;
     private Vector3 prefabLocation;
-    public float x, y, z;
+    public float x, y, z , envx,envy,envz;
     void Start()
     {
         // gb = MarsRuntimeUtils.GetActiveCamera(true).GetComponent<ARCameraManager>().gameObject;
@@ -33,6 +33,7 @@ public class transparent : MonoBehaviour
     {
         mycamera.active = true;
         mycamera.transform.position = body.transform.position + new Vector3(0, 0, distance);
+        env.transform.position = body.transform.position + new Vector3(envx, envy, envz);
         
     }
 
