@@ -21,6 +21,3 @@ Cmd: compileComputeKernel
 Cmd: compileComputeKernel
   insize=1442 file=C:/Users/inessaid/Documents/GitHub/Covid-Reflection-URP/Library/PackageCache/com.unity.visualeffectgraph@10.8.1/Shaders/UpdateStrips.compute kernel=UpdateParticleStrip cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=9 km=<UNITY_VERSION=202039> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 SHADER_API_MOBILE UNITY_LIGHTMAP_DLDR_ENCODING uKW=SHADER_STAGE_COMPUTE platform=metal flags=268439552 ok=1 outsize=2673
 
-Cmd: shutdown
-
-Quitting shader compiler process
