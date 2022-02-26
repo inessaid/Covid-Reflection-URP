@@ -15,11 +15,11 @@ C:/Users/inessaid/Documents/GitHub/Covid-Reflection-URP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62764
+53150
 Successfully changed project path to: C:/Users/inessaid/Documents/GitHub/Covid-Reflection-URP
 C:/Users/inessaid/Documents/GitHub/Covid-Reflection-URP
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 213.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 163.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,94 +35,94 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004474 seconds.
+Registered in 0.004144 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 185.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 137.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.226 seconds
+- Completed reload, in  1.050 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1227ms)
-		BeginReloadAssembly (123ms)
+	ReloadAssembly (1050ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (967ms)
-			LoadAssemblies (120ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (825ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
+			SetupTypeCache (234ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (441ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (341ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (186ms)
-				BeforeProcessingInitializeOnLoad (31ms)
-				ProcessInitializeOnLoadAttributes (167ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (137ms)
+				BeforeProcessingInitializeOnLoad (27ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.023783 seconds.
+Registered in 0.017712 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 210.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 162.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.814 seconds
+- Completed reload, in  5.068 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5816ms)
-		BeginReloadAssembly (267ms)
+	ReloadAssembly (5070ms)
+		BeginReloadAssembly (213ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (5432ms)
-			LoadAssemblies (218ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (4772ms)
+			LoadAssemblies (169ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (832ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (235ms)
-			SetupLoadedEditorAssemblies (3882ms)
+			SetupTypeCache (625ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (134ms)
+			SetupLoadedEditorAssemblies (3563ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (210ms)
-				BeforeProcessingInitializeOnLoad (360ms)
-				ProcessInitializeOnLoadAttributes (3129ms)
-				ProcessInitializeOnLoadMethodAttributes (160ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				RefreshPlugins (162ms)
+				BeforeProcessingInitializeOnLoad (309ms)
+				ProcessInitializeOnLoadAttributes (2880ms)
+				ProcessInitializeOnLoadMethodAttributes (183ms)
+				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 242.4 MB.
-System memory in use after: 242.4 MB.
+Unloading 5559 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.3 MB.
+System memory in use after: 222.3 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 6516.
-Total: 20.236500 ms (FindLiveObjects: 0.819800 ms CreateObjectMapping: 0.402700 ms MarkObjects: 18.478800 ms  DeleteObjects: 0.533600 ms)
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 5989.
+Total: 27.632000 ms (FindLiveObjects: 1.228400 ms CreateObjectMapping: 0.737400 ms MarkObjects: 24.779100 ms  DeleteObjects: 0.884300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -137,76 +137,186 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Covid-Reflection.unity
-  artifactKey: Guid(a56e7fbd8e0f442eda9f8f6775155336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Covid-Reflection.unity using Guid(a56e7fbd8e0f442eda9f8f6775155336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee50ff4db48b638bf98024048bb4eda9') in 0.044263 seconds 
-  Import took 0.056970 seconds .
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31501810c501ebef80ccf886da32cebb') in 0.045068 seconds 
+  Import took 0.061964 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e032b039bcbd1476593e9ea1649b903') in 0.067105 seconds 
-  Import took 0.084483 seconds .
+  Time since last request: 0.000311 seconds.
+  path: Assets/prefab/UI Cube.prefab
+  artifactKey: Guid(5a4898692049c4061bd9fd8393fca88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/UI Cube.prefab using Guid(5a4898692049c4061bd9fd8393fca88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb9e2e73f5a3709c30e703972462ec8') in 0.412374 seconds 
+  Import took 0.426744 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000466 seconds.
-  path: Assets/shader/Shader Graphs_disolve.mat
-  artifactKey: Guid(a0a30d82e13614648b167649c4da21fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shader/Shader Graphs_disolve.mat using Guid(a0a30d82e13614648b167649c4da21fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e02577b8ce1e66b4c18c38a3448377') in 1.159841 seconds 
-  Import took 1.172600 seconds .
+  Time since last request: 0.000389 seconds.
+  path: Assets/prefab/Canvas.prefab
+  artifactKey: Guid(021b83f9693e34977880422e85c327f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Canvas.prefab using Guid(021b83f9693e34977880422e85c327f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8fdcef65874dcee8e5275fff3be01c') in 0.014845 seconds 
+  Import took 0.027656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/prefab/lungs animated prefab Variant.prefab
+  artifactKey: Guid(c02b0d31c276649c1b1907912c6e559b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/lungs animated prefab Variant.prefab using Guid(c02b0d31c276649c1b1907912c6e559b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c954f99afa96db5ee6b922b1e1420658') in 0.737416 seconds 
+  Import took 0.751791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/prefab/TopLeftPanel.prefab
+  artifactKey: Guid(b56ef8faf26eb4c9fb89a0b3cf441480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/TopLeftPanel.prefab using Guid(b56ef8faf26eb4c9fb89a0b3cf441480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3145c19506fc207f9ff98d874efbfc') in 0.035802 seconds 
+  Import took 0.048986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/prefab/body cube.prefab
+  artifactKey: Guid(d50166696476649158e3484e7ca69a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/body cube.prefab using Guid(d50166696476649158e3484e7ca69a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a99ab54061098fffae0010816ecb64') in 0.022913 seconds 
+  Import took 0.035484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.865229 seconds.
+  path: Assets/VFXExport/Dancing.fbx
+  artifactKey: Guid(d565be93ab4568541aa34d736e4261f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFXExport/Dancing.fbx using Guid(d565be93ab4568541aa34d736e4261f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247c296b051f0a52b86ad12c679d2064') in 0.250859 seconds 
+  Import took 0.269529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/VFXExport/StarDust.vfx
+  artifactKey: Guid(259e6764d91465046b5f2df9defe0fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFXExport/StarDust.vfx using Guid(259e6764d91465046b5f2df9defe0fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b419e6ae0b3c8ebdf73aeb89e58d47d') in 0.011784 seconds 
+  Import took 0.024845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/VFXExport/VFXDancing.prefab
+  artifactKey: Guid(0a30d666e6aac354dafd43168e845fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFXExport/VFXDancing.prefab using Guid(0a30d666e6aac354dafd43168e845fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a36f0e27b03a19895be996bba20178') in 0.057857 seconds 
+  Import took 0.072899 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.014403 seconds.
+Registered in 0.026935 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.607 seconds
+- Completed reload, in  4.006 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4608ms)
-		BeginReloadAssembly (288ms)
+	ReloadAssembly (4007ms)
+		BeginReloadAssembly (260ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (98ms)
-		EndReloadAssembly (4199ms)
-			LoadAssemblies (208ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (3618ms)
+			LoadAssemblies (194ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (804ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (169ms)
-			SetupLoadedEditorAssemblies (2663ms)
+			SetupTypeCache (713ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (2262ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (371ms)
-				ProcessInitializeOnLoadAttributes (2111ms)
-				ProcessInitializeOnLoadMethodAttributes (154ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (282ms)
+				ProcessInitializeOnLoadAttributes (1829ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
+				AfterProcessingInitializeOnLoad (19ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (31ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5935 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 236.3 MB.
-System memory in use after: 236.3 MB.
+Unloading 5417 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 230.9 MB.
+System memory in use after: 230.9 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 6599.
-Total: 28.340300 ms (FindLiveObjects: 0.661200 ms CreateObjectMapping: 0.385600 ms MarkObjects: 26.795300 ms  DeleteObjects: 0.496700 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 6077.
+Total: 22.918300 ms (FindLiveObjects: 0.918500 ms CreateObjectMapping: 0.721800 ms MarkObjects: 20.743700 ms  DeleteObjects: 0.532800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013707 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 168.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.520 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4521ms)
+		BeginReloadAssembly (259ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (4152ms)
+			LoadAssemblies (209ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (751ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (2624ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (169ms)
+				BeforeProcessingInitializeOnLoad (242ms)
+				ProcessInitializeOnLoadAttributes (2057ms)
+				ProcessInitializeOnLoadMethodAttributes (129ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.9 MB.
+System memory in use after: 249.8 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 6600.
+Total: 33.750900 ms (FindLiveObjects: 0.987500 ms CreateObjectMapping: 0.774500 ms MarkObjects: 30.945300 ms  DeleteObjects: 1.041300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -222,245 +332,185 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 154.972999 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/Kitchen/Models/ApplianceStack_30in_Ovens_KN001a.fbx
-  artifactKey: Guid(70c696222ad920c448ec6912f70a0bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/Kitchen/Models/ApplianceStack_30in_Ovens_KN001a.fbx using Guid(70c696222ad920c448ec6912f70a0bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd55923157e8f08088a92b2f57d07c1') in 0.466171 seconds 
-  Import took 0.482011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Prefab/DisplayStand_35in_MM001.prefab
-  artifactKey: Guid(9530533a495a6d947b9a33546221cadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Prefab/DisplayStand_35in_MM001.prefab using Guid(9530533a495a6d947b9a33546221cadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19833b1fe3af1d85a7b3489f5d7ae2d6') in 0.073276 seconds 
-  Import took 0.089524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Models/DisplayStand_39in_MM001.fbx
-  artifactKey: Guid(10681b197ebd08f41beb6fea59303d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Models/DisplayStand_39in_MM001.fbx using Guid(10681b197ebd08f41beb6fea59303d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464aaff0ee65b32363694f59df4f5af1') in 0.070832 seconds 
-  Import took 0.085821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Prefab/DisplayStand_46in_MM001.prefab
-  artifactKey: Guid(30796afa74c368b459836f7d53b72b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Prefab/DisplayStand_46in_MM001.prefab using Guid(30796afa74c368b459836f7d53b72b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7066c66e4cbe43828fa33d4ccfbf940d') in 0.053803 seconds 
-  Import took 0.067676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/StarterAssets/InputSystem/StarterAssets.inputsettings.asset
-  artifactKey: Guid(9e7be553448fa2546aea5752021cbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/InputSystem/StarterAssets.inputsettings.asset using Guid(9e7be553448fa2546aea5752021cbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189a9b2aaebccb5959d17283b1e32122') in 0.016199 seconds 
-  Import took 0.036246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/Bedroom/Prefab/Nightstand_25in_BR002.prefab
-  artifactKey: Guid(ffb408d4a0437ac478c8f820eeb53530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/Bedroom/Prefab/Nightstand_25in_BR002.prefab using Guid(ffb408d4a0437ac478c8f820eeb53530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b2c4abaf2d1eaf7e311288cbbcdbed') in 0.028393 seconds 
-  Import took 0.045273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/Bedroom/Models/Nightstand_25in_BR001.fbx
-  artifactKey: Guid(1f9e194edc869724e86a4efaa9ce6d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/Bedroom/Models/Nightstand_25in_BR001.fbx using Guid(1f9e194edc869724e86a4efaa9ce6d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae98197a390adf9bacb734d597ce6a4') in 0.039104 seconds 
-  Import took 0.055261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Prefab/DisplayStand_60in_MM001.prefab
-  artifactKey: Guid(bdaa05f70cb597140b64759870b5bc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Prefab/DisplayStand_60in_MM001.prefab using Guid(bdaa05f70cb597140b64759870b5bc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc216a1d8bd6ea42d56987b5c24a63e') in 0.059252 seconds 
-  Import took 0.077252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Animations/Stand--Idle.anim.fbx
-  artifactKey: Guid(12e52e465ed793a4d801955e9f964a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Animations/Stand--Idle.anim.fbx using Guid(12e52e465ed793a4d801955e9f964a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87df462b70d5478430176d6a9b6549da') in 0.034971 seconds 
-  Import took 0.050301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Prefab/DisplayStand_39in_MM001.prefab
-  artifactKey: Guid(60bef235c0841a0489ab65c4c0e2fed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Prefab/DisplayStand_39in_MM001.prefab using Guid(60bef235c0841a0489ab65c4c0e2fed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3014404944d9a055e47808d25ca1dd4c') in 0.023929 seconds 
-  Import took 0.037053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Models/DisplayStand_46in_MM001.fbx
-  artifactKey: Guid(d792015995f0ab5488324bfb21c66821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Models/DisplayStand_46in_MM001.fbx using Guid(d792015995f0ab5488324bfb21c66821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166c0d3d44bf27d292cd444dd808cb12') in 0.033455 seconds 
-  Import took 0.047693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/Factory/Models/MFG_Equip_30ftx7ft_w_Exhaust_FY001.fbx
-  artifactKey: Guid(b01d5656435570240b7a40146cef09cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/Factory/Models/MFG_Equip_30ftx7ft_w_Exhaust_FY001.fbx using Guid(b01d5656435570240b7a40146cef09cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c16cf50ff3f2bf96daef4c7009d9f8') in 0.078432 seconds 
-  Import took 0.092045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Models/DisplayStand_36in_MM001.fbx
-  artifactKey: Guid(d4761a6a14826f24cbecad2329af7bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Models/DisplayStand_36in_MM001.fbx using Guid(d4761a6a14826f24cbecad2329af7bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476414510e3e15c5ab3e6bf0eccddc7e') in 0.065155 seconds 
-  Import took 0.082198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Animations/Jump--Jump.anim.fbx
-  artifactKey: Guid(98f277b0c8055e143b2fcf058d3c27dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Animations/Jump--Jump.anim.fbx using Guid(98f277b0c8055e143b2fcf058d3c27dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d263be5cb9969bf33227558752597b') in 0.030984 seconds 
-  Import took 0.045401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/BodyTracking/BodyTracking_Standing.prefab
-  artifactKey: Guid(44ffecd288e7dab4bb4e5c1cd7c2d69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/BodyTracking/BodyTracking_Standing.prefab using Guid(44ffecd288e7dab4bb4e5c1cd7c2d69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b580e180697fbaf968a1b03cb4945064') in 4.507725 seconds 
-  Import took 4.529683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Models/DisplayStand_35in_MM001.fbx
-  artifactKey: Guid(f01f95ff1a2b58241913d00b1d4dc25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Models/DisplayStand_35in_MM001.fbx using Guid(f01f95ff1a2b58241913d00b1d4dc25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911d1a5ef083af4a7ef5d4ab78d7408f') in 0.033002 seconds 
-  Import took 0.046604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/Bedroom/Models/Nightstand_25in_BR002.fbx
-  artifactKey: Guid(cd3033dca7730ed4ba1c5eb716822f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/Bedroom/Models/Nightstand_25in_BR002.fbx using Guid(cd3033dca7730ed4ba1c5eb716822f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9e9aab06b6b07286f0a9f957148d71') in 0.029920 seconds 
-  Import took 0.043425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Prefab/DisplayStand_36in_MM001.prefab
-  artifactKey: Guid(2922c6b8b7ebf0e42916123234cbe23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Prefab/DisplayStand_36in_MM001.prefab using Guid(2922c6b8b7ebf0e42916123234cbe23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da72b21ed01044aa18297f5eae5ed5c8') in 0.020387 seconds 
-  Import took 0.033059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/Kitchen/Prefab/ApplianceStack_30in_Ovens_KN001a.prefab
-  artifactKey: Guid(fd168d1c99eb3594fae7c7f949b98f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/Kitchen/Prefab/ApplianceStack_30in_Ovens_KN001a.prefab using Guid(fd168d1c99eb3594fae7c7f949b98f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6430ef4f3b769fb6163b8a3fccc61a') in 0.021943 seconds 
-  Import took 0.039541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/StarterAssets/InputSystem/StarterAssets.inputactions
-  artifactKey: Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/InputSystem/StarterAssets.inputactions using Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e8d5ace16a138784ffc5b8385ff5fc') in 0.029267 seconds 
-  Import took 0.043215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Models/DisplayStand_60in_MM001.fbx
-  artifactKey: Guid(1e3a7629d06a51142a67b49578a62228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/Museum/Models/DisplayStand_60in_MM001.fbx using Guid(1e3a7629d06a51142a67b49578a62228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecbce0d7baafc45455a826ffb0d1113') in 0.040207 seconds 
-  Import took 0.059415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/UnityXRContent/MARS/SimulationEnvironments/Bedroom/Prefab/Nightstand_25in_BR001.prefab
-  artifactKey: Guid(34ea7f5a6c96e9d45a40131eb1473a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityXRContent/MARS/SimulationEnvironments/Bedroom/Prefab/Nightstand_25in_BR001.prefab using Guid(34ea7f5a6c96e9d45a40131eb1473a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636fb23a3b1fe1a1b9d92750dab5bb42') in 0.025411 seconds 
-  Import took 0.043902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/XR/XRGeneralSettings.asset
-  artifactKey: Guid(a61173a4e30324026bb40f903bf91b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/XRGeneralSettings.asset using Guid(a61173a4e30324026bb40f903bf91b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9a6f2f1806fbfbde6188523c832762') in 0.010281 seconds 
-  Import took 0.022839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.552535 seconds.
+  Time since last request: 180.318844 seconds.
   path: Assets/VFXExport/StarDust.vfx
   artifactKey: Guid(259e6764d91465046b5f2df9defe0fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFXExport/StarDust.vfx using Guid(259e6764d91465046b5f2df9defe0fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89cd0c6dc046c1a13e167a3e8c4f597') in 0.013876 seconds 
-  Import took 0.029486 seconds .
+Start importing Assets/VFXExport/StarDust.vfx using Guid(259e6764d91465046b5f2df9defe0fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41152486989c8e5f3fe810b9ddc39f61') in 0.046545 seconds 
+  Import took 0.069545 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.014572 seconds.
+Registered in 0.011975 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.609 seconds
+- Completed reload, in  4.057 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4609ms)
-		BeginReloadAssembly (236ms)
+	ReloadAssembly (4057ms)
+		BeginReloadAssembly (248ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (91ms)
-		EndReloadAssembly (4258ms)
-			LoadAssemblies (228ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (3715ms)
+			LoadAssemblies (193ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (895ms)
+			SetupTypeCache (706ms)
 			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (165ms)
-			SetupLoadedEditorAssemblies (2608ms)
+			RebuildScriptCaches (150ms)
+			SetupLoadedEditorAssemblies (2315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (335ms)
+				ProcessInitializeOnLoadAttributes (1837ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.0 MB.
+System memory in use after: 249.9 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 6605.
+Total: 27.758900 ms (FindLiveObjects: 0.763400 ms CreateObjectMapping: 0.407800 ms MarkObjects: 25.910600 ms  DeleteObjects: 0.675700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026108 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4352ms)
+		BeginReloadAssembly (263ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (3972ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (777ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (182ms)
+			SetupLoadedEditorAssemblies (2462ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (322ms)
+				ProcessInitializeOnLoadAttributes (1993ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.1 MB.
+System memory in use after: 249.9 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 6610.
+Total: 31.700300 ms (FindLiveObjects: 0.817000 ms CreateObjectMapping: 0.511600 ms MarkObjects: 29.361300 ms  DeleteObjects: 1.008700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019089 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.094 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4095ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (3751ms)
+			LoadAssemblies (192ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (735ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (154ms)
+			SetupLoadedEditorAssemblies (2310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (325ms)
-				ProcessInitializeOnLoadAttributes (2122ms)
-				ProcessInitializeOnLoadMethodAttributes (136ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				BeforeProcessingInitializeOnLoad (300ms)
+				ProcessInitializeOnLoadAttributes (1861ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (39ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5936 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 250.5 MB.
-System memory in use after: 250.5 MB.
+Unloading 5941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.8 MB.
+System memory in use after: 249.7 MB.
 
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 6644.
-Total: 21.757400 ms (FindLiveObjects: 0.496900 ms CreateObjectMapping: 0.433400 ms MarkObjects: 19.570900 ms  DeleteObjects: 1.255200 ms)
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 6615.
+Total: 27.555700 ms (FindLiveObjects: 0.627500 ms CreateObjectMapping: 0.828000 ms MarkObjects: 25.302000 ms  DeleteObjects: 0.796900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -474,3 +524,190 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012900 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.035 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4036ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (3707ms)
+			LoadAssemblies (178ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (689ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (164ms)
+			SetupLoadedEditorAssemblies (2305ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (286ms)
+				ProcessInitializeOnLoadAttributes (1877ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.9 MB.
+System memory in use after: 249.8 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 6620.
+Total: 24.309800 ms (FindLiveObjects: 0.979400 ms CreateObjectMapping: 0.685700 ms MarkObjects: 21.945200 ms  DeleteObjects: 0.697800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018698 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.984 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3985ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (3668ms)
+			LoadAssemblies (182ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (725ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (148ms)
+			SetupLoadedEditorAssemblies (2240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (296ms)
+				ProcessInitializeOnLoadAttributes (1804ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.1 MB.
+System memory in use after: 250.0 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 6625.
+Total: 23.277300 ms (FindLiveObjects: 0.730200 ms CreateObjectMapping: 0.499400 ms MarkObjects: 21.310100 ms  DeleteObjects: 0.736100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014216 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4052ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (3742ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (689ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (172ms)
+			SetupLoadedEditorAssemblies (2312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (286ms)
+				ProcessInitializeOnLoadAttributes (1875ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.2 MB.
+System memory in use after: 250.0 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 6630.
+Total: 23.955500 ms (FindLiveObjects: 0.793200 ms CreateObjectMapping: 0.566900 ms MarkObjects: 21.625100 ms  DeleteObjects: 0.968800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
