@@ -840,3 +840,4 @@ Received Import Request.
 Start importing Assets/Austin Effects/Scene 4/covidballMaterial.shadergraph using Guid(cbb51f0d48769024ca88ac1e14ea6516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ec3b0729430d4a69fdaa4aa016405f') in 0.005486 seconds 
   Import took 0.014047 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
