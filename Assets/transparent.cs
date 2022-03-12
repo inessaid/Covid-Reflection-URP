@@ -7,7 +7,7 @@ using UnityEngine.XR.ARFoundation;
 public class transparent : MonoBehaviour
 {
     // Start is called before the first frame update
-
+   
     public float distance;
     public GameObject mycamera, body, env;
     public GameObject UIPrefab;
@@ -17,8 +17,8 @@ public class transparent : MonoBehaviour
     {
         // gb = MarsRuntimeUtils.GetActiveCamera(true).GetComponent<ARCameraManager>().gameObject;
 
-        Invoke("wakeup", 3f);
-        Invoke("ShowUI", 5f);
+        Invoke("wakeup", 2f);
+       // Invoke("ShowUI", 5f);
     }
 
     // Update is called once per frame
@@ -34,6 +34,7 @@ public class transparent : MonoBehaviour
         mycamera.active = true;
         mycamera.transform.position = body.transform.position + new Vector3(0, 0, distance);
         env.transform.position = body.transform.position + new Vector3(envx, envy, envz);
+
         
     }
 
