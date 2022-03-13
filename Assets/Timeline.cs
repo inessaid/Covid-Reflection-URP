@@ -11,7 +11,7 @@ public class Timeline : MonoBehaviour
     public GameObject sliderGB, logo;
     public Slider slider;
     [SerializeField] private Renderer lungRenderer;
-    public Material lungWithCovidMat;
+    public Material lungWithCovidMat, lungWithPneumonia;
    // public Material lungMaterial;
 
 
@@ -46,7 +46,7 @@ public class Timeline : MonoBehaviour
         logo.SetActive(false);
         // enable logo
         sliderGB.SetActive(true);
-        Destroy(GameObject.Find("StartUI(Clone)"));
+        GameObject.Find("StartUI(Clone)").SetActive(false);
         GameObject.FindGameObjectWithTag("Logo").SetActive(false);
         
     }
@@ -84,6 +84,7 @@ public class Timeline : MonoBehaviour
     public void CovidWorsens()
     {
         Debug.Log("Covid Worsens");
+        lungRenderer.material = lungWithPneumonia;
     }
     public void LungFailure()
     {
