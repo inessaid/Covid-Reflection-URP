@@ -617,7 +617,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: UNITY_CCU;STARTER_ASSETS_PACKAGES_CHECKED
+    1: UNITY_CCU;STARTER_ASSETS_PACKAGES_CHECKED;SUBSTANCE_PLUGIN_ENABLED
     4: UNITY_CCU;UNITY_XR_ARKIT_LOADER_ENABLED;STARTER_ASSETS_PACKAGES_CHECKED
   additionalCompilerArguments: {}
   platformArchitecture: {}
