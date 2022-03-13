@@ -17,7 +17,7 @@ public class transparent : MonoBehaviour
     {
         // gb = MarsRuntimeUtils.GetActiveCamera(true).GetComponent<ARCameraManager>().gameObject;
 
-        Invoke("wakeup", 2f);
+        Invoke("wakeup", 3f);
        // Invoke("ShowUI", 5f);
     }
 
