@@ -78,6 +78,7 @@ public class Timeline : MonoBehaviour
     public void CovidSetsIn()
     {
         Debug.Log("Covid Sets In");
+        covidParticle.SetActive(false);
         lungRenderer.material.SetFloat("_alpha", 1f);
         lungRenderer.material = lungWithCovidMat;
     }
