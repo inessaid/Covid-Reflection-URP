@@ -1312,6 +1312,7 @@ MonoBehaviour:
   logo: {fileID: 1296996131}
   slider: {fileID: 331904455}
   lungRenderer: {fileID: 1243737086}
+  lungWithCovidMat: {fileID: 2100000, guid: 34fb682b09026384f90b52205cd126ab, type: 2}
 --- !u!4 &1751666519
 Transform:
   m_ObjectHideFlags: 0

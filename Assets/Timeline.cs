@@ -11,6 +11,7 @@ public class Timeline : MonoBehaviour
     public GameObject sliderGB, logo;
     public Slider slider;
     [SerializeField] private Renderer lungRenderer;
+    public Material lungWithCovidMat;
    // public Material lungMaterial;
 
 
@@ -77,6 +78,8 @@ public class Timeline : MonoBehaviour
     public void CovidSetsIn()
     {
         Debug.Log("Covid Sets In");
+        lungRenderer.material.SetFloat("_alpha", 1f);
+        lungRenderer.material = lungWithCovidMat;
     }
     public void CovidWorsens()
     {
