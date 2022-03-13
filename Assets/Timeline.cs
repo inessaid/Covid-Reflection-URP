@@ -8,7 +8,7 @@ public class Timeline : MonoBehaviour
     public GameObject body, startButton, germCloud, covidParticle, lungs;
     public Vector3 startButtonPosition = new Vector3(0.4f, 0.9f, 0f);
     public Vector3 germCloudPosition = new Vector3(0f, 0f, -2f);
-    public GameObject sliderGB;
+    public GameObject sliderGB, logo;
     public Slider slider;
     [SerializeField] private Renderer lungRenderer;
    // public Material lungMaterial;
@@ -41,6 +41,9 @@ public class Timeline : MonoBehaviour
     public void PreCovid()
     {
         Debug.Log("preCovid");
+        //disable logo
+        logo.SetActive(false);
+        // enable logo
         sliderGB.SetActive(true);
         Destroy(GameObject.Find("StartUI(Clone)"));
         GameObject.FindGameObjectWithTag("Logo").SetActive(false);
@@ -50,8 +53,8 @@ public class Timeline : MonoBehaviour
     {
         Debug.Log("First Exposure");
 
-        // instantiate Covid particles
 
+        // instantiate Covid particles
         var myprefabLocation = body.transform.position + germCloudPosition;
         Instantiate(germCloud, myprefabLocation, Quaternion.identity);
     }
@@ -63,7 +66,7 @@ public class Timeline : MonoBehaviour
         GameObject.Find("Germ Cloud(Clone)").SetActive(false);
 
         //make lungs transparent   
-        lungRenderer.material.SetFloat("_alpha", 0.5f);
+        lungRenderer.material.SetFloat("_alpha", 0.3f);
 
         // Covid particle goes into lungs
         covidParticle.SetActive(true);

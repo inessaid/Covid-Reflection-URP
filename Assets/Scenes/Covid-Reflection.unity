@@ -408,6 +408,7 @@ MonoBehaviour:
   mycamera: {fileID: 225529445}
   body: {fileID: 1593930948}
   env: {fileID: 1771614522}
+  timeline: {fileID: 1751666517}
   UIPrefab: {fileID: 1171187452096611196, guid: 5a4898692049c4061bd9fd8393fca88c, type: 3}
   x: 0.4
   y: 0.9
@@ -713,7 +714,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &743868038
 Transform:
   m_ObjectHideFlags: 0
@@ -1308,6 +1309,7 @@ MonoBehaviour:
   startButtonPosition: {x: 0.4, y: 0.9, z: 0}
   germCloudPosition: {x: 0, y: 0, z: -1}
   sliderGB: {fileID: 331904453}
+  logo: {fileID: 1296996131}
   slider: {fileID: 331904455}
   lungRenderer: {fileID: 1243737086}
 --- !u!4 &1751666519
