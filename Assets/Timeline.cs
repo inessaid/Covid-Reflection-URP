@@ -5,13 +5,15 @@ using UnityEngine.UI;
 
 public class Timeline : MonoBehaviour
 {
-    public GameObject body, startButton, germCloud;
+    public GameObject body, startButton, germCloud, covidParticle, lungs;
     public Vector3 startButtonPosition = new Vector3(0.4f, 0.9f, 0f);
     public Vector3 germCloudPosition = new Vector3(0f, 0f, -2f);
     public GameObject sliderGB;
     public Slider slider;
-    
-  
+    [SerializeField] private Renderer lungRenderer;
+   // public Material lungMaterial;
+
+
 
 
     private void OnEnable()
@@ -47,6 +49,7 @@ public class Timeline : MonoBehaviour
     public void FirstExposure()
     {
         Debug.Log("First Exposure");
+
         // instantiate Covid particles
 
         var myprefabLocation = body.transform.position + germCloudPosition;
@@ -55,6 +58,16 @@ public class Timeline : MonoBehaviour
     public void TravelToLungs()
     {
         Debug.Log("Travel to lungs");
+
+        // set oof  particle germs 
+        GameObject.Find("Germ Cloud(Clone)").SetActive(false);
+
+        //make lungs transparent   
+        lungRenderer.material.SetFloat("_alpha", 0.5f);
+
+        // Covid particle goes into lungs
+        covidParticle.SetActive(true);
+
 
 
     }
@@ -113,6 +126,8 @@ public class Timeline : MonoBehaviour
         }
 
     }
+
+
 
 
 }
