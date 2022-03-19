@@ -17,8 +17,9 @@ public class transparent : MonoBehaviour
     {
         // gb = MarsRuntimeUtils.GetActiveCamera(true).GetComponent<ARCameraManager>().gameObject;
 
-        Invoke("wakeup", 3f);
-       // Invoke("ShowUI", 5f);
+        //Invoke("wakeup", 5f);
+        StartCoroutine(wakeup());
+        // Invoke("ShowUI", 5f);
     }
 
     // Update is called once per frame
@@ -29,11 +30,18 @@ public class transparent : MonoBehaviour
     }
 
 
-    void wakeup()
+    IEnumerator wakeup()
     {
+       
+
+        yield return new WaitForSeconds(3);
         mycamera.active = true;
         mycamera.transform.position = body.transform.position + new Vector3(0, 0, distance);
+        yield return new WaitForSeconds(3);
+
+        env.active = true;
         env.transform.position = body.transform.position + new Vector3(envx, envy, envz);
+
 
         timeline.SetActive(true);
 
