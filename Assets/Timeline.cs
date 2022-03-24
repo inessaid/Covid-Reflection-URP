@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Timeline : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class Timeline : MonoBehaviour
     public Slider slider;
     [SerializeField] private Renderer lungRenderer;
     public Material lungWithCovidMat, lungWithPneumonia;
+    public TMP_Text state;
    // public Material lungMaterial;
 
 
@@ -42,6 +44,7 @@ public class Timeline : MonoBehaviour
     public void PreCovid()
     {
         Debug.Log("preCovid");
+        state.SetText("Pre Covid");
         //disable logo
         logo.SetActive(false);
         // enable logo
@@ -53,7 +56,7 @@ public class Timeline : MonoBehaviour
     public void FirstExposure()
     {
         Debug.Log("First Exposure");
-
+        state.SetText("First Exposure");
 
         // instantiate Covid particles
         var myprefabLocation = body.transform.position + germCloudPosition;
@@ -62,7 +65,7 @@ public class Timeline : MonoBehaviour
     public void TravelToLungs()
     {
         Debug.Log("Travel to lungs");
-
+        state.SetText("Travel To Lungs");
         // set oof  particle germs 
         GameObject.Find("Germ Cloud(Clone)").SetActive(false);
 
@@ -78,6 +81,7 @@ public class Timeline : MonoBehaviour
     public void CovidSetsIn()
     {
         Debug.Log("Covid Sets In");
+        state.SetText("Covid Sets In");
         covidParticle.SetActive(false);
         lungRenderer.material.SetFloat("_alpha", 1f);
         lungRenderer.material = lungWithCovidMat;
@@ -85,10 +89,12 @@ public class Timeline : MonoBehaviour
     public void CovidWorsens()
     {
         Debug.Log("Covid Worsens");
+        state.SetText("Covid Worsens");
         lungRenderer.material = lungWithPneumonia;
     }
     public void LungFailure()
     {
+        state.SetText("Lung Failure");
         Debug.Log("Lung Failure");
     }
     public void BenefitOfVaccination()
