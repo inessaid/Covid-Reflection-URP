@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class SliderCoroutine : MonoBehaviour
 {
+    public float waitTime;
     private void OnEnable()
     {
         StartCoroutine(Fade());
@@ -13,20 +14,21 @@ public class SliderCoroutine : MonoBehaviour
 
     IEnumerator Fade()
     {
-  
-        yield return new WaitForSeconds(5f);
+
+        this.GetComponent<Slider>().value = 1;
+        yield return new WaitForSeconds(waitTime);
         this.GetComponent<Slider>().value = 2;
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(waitTime);
         this.GetComponent<Slider>().value = 3;
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(waitTime);
         this.GetComponent<Slider>().value = 4;
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(25);
         this.GetComponent<Slider>().value = 5;
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(waitTime);
         this.GetComponent<Slider>().value = 6;
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(waitTime);
         this.GetComponent<Slider>().value = 7;
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(waitTime);
         this.GetComponent<Slider>().value = 8;
 
     }

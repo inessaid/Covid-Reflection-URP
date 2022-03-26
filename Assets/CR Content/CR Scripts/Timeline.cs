@@ -12,8 +12,14 @@ public class Timeline : MonoBehaviour
     public GameObject sliderGB, logo;
     public Slider slider;
     [SerializeField] private Renderer lungRenderer;
-    public Material lungWithCovidMat, lungWithPneumonia;
+   // public Material lungWithCovidMat, lungWithPneumonia;
     public TMP_Text state;
+    private float counter=0;
+    private bool counterTrigger;
+    public float speed;
+    private bool particleTrigger, pneumoniaTrigger;
+    public AudioSource[] audios;
+  
    // public Material lungMaterial;
 
 
@@ -22,18 +28,53 @@ public class Timeline : MonoBehaviour
     private void OnEnable()
     {
         StartScreen();
+      
     }
     // Start is called before the first frame update
     void Start()
     {
         //sliderGB = GameObject.FindGameObjectWithTag("Slider");
-        
+        counter = 0;
+        counterTrigger = false;
+        particleTrigger = false;
+        pneumoniaTrigger = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //Debug.Log(counter);
+
+        //if (counterTrigger && particleTrigger)
+        //{
+        //    counter=Mathf.Lerp(0, 1, Time.time * speed);
+             
+        //    lungRenderer.material.SetFloat("_particle_trigger", counter);
+
+        //    // lungRenderer.material.SetFloat("_pneumonia_trigger", counter);
+
+
+        //}
+
+        //if (counterTrigger && pneumoniaTrigger)
+        //{
+        //    counter = Mathf.Lerp(0, 1, Time.time * speed);
+
+        //    lungRenderer.material.SetFloat("_pneumonia_trigger", counter);
+
+
+        //}
+
+        //if (counter > 0.98)
+        //{
+        //    counterTrigger = false;
+        //    pneumoniaTrigger = false;
+        //    particleTrigger = false;
+        //    counter = 0;
+
+
+        //}
+
     }
 
     public void StartScreen()
@@ -46,8 +87,13 @@ public class Timeline : MonoBehaviour
     } 
     public void PreCovid()
     {
-        Debug.Log("preCovid");
+       // Debug.Log("preCovid");
         state.SetText("Pre Covid");
+        audios[0].Play();
+        
+        lungRenderer.material.SetFloat("_particle_trigger", 0f);
+        lungRenderer.material.SetFloat("_base_trigger", 1f);
+        lungRenderer.material.SetFloat("_pneumonia_trigger", 0f);
         //disable logo
         logo.SetActive(false);
         // enable logo
@@ -58,8 +104,9 @@ public class Timeline : MonoBehaviour
     }
     public void FirstExposure()
     {
-        Debug.Log("First Exposure");
+        //Debug.Log("First Exposure");
         state.SetText("First Exposure");
+        audios[1].Play();
 
         // instantiate Covid particles
         var myprefabLocation = body.transform.position + germCloudPosition;
@@ -67,8 +114,10 @@ public class Timeline : MonoBehaviour
     }
     public void TravelToLungs()
     {
-        Debug.Log("Travel to lungs");
+       // Debug.Log("Travel to lungs");
         state.SetText("Travel To Lungs");
+
+        audios[2].Play();
         // set oof  particle germs 
         GameObject.Find("Germ Cloud(Clone)").SetActive(false);
 
@@ -83,32 +132,45 @@ public class Timeline : MonoBehaviour
     }
     public void CovidSetsIn()
     {
-        Debug.Log("Covid Sets In");
+        //Debug.Log("Covid Sets In");
         state.SetText("Covid Sets In");
+        audios[3].Play();
         covidParticle.SetActive(false);
         lungRenderer.material.SetFloat("_alpha", 1f);
-        lungRenderer.material = lungWithCovidMat;
+        // lungRenderer.material = lungWithCovidMat;
+        counterTrigger = true;
+        particleTrigger = true;
+        lungRenderer.material.SetFloat("_particle_trigger", 1f);
+        lungRenderer.material.SetFloat("_base_trigger", 0f);
+        lungRenderer.material.SetFloat("_pneumonia_trigger", 0f);
     }
     public void CovidWorsens()
     {
-        Debug.Log("Covid Worsens");
+       // Debug.Log("Covid Worsens");
         state.SetText("Covid Worsens");
-        lungRenderer.material = lungWithPneumonia;
+        audios[4].Play();
+        // lungRenderer.material = lungWithPneumonia;
+        //counterTrigger = true;
+        lungRenderer.material.SetFloat("_particle_trigger", 0f);
+        lungRenderer.material.SetFloat("_base_trigger", 0f);
+        lungRenderer.material.SetFloat("_pneumonia_trigger", 1f);
     }
     public void LungFailure()
     {
         state.SetText("Lung Failure");
-        Debug.Log("Lung Failure");
+        audios[5].Play();
+        // Debug.Log("Lung Failure");
     }
     public void BenefitOfVaccination()
     {
         state.SetText("Benefit Of Vaccination");
-        Debug.Log("Benefit Of Vaccination");
+        audios[6].Play();
+        // Debug.Log("Benefit Of Vaccination");
     }
     public void FreeForm()
     {
         state.SetText("Free Form");
-        Debug.Log("Free Form");
+       // Debug.Log("Free Form");
         for (int i = 0; i < 4; i++)
         {
             // right Button
@@ -127,12 +189,12 @@ public class Timeline : MonoBehaviour
     }
     public void EndScreen()
     {
-        Debug.Log("End of Screen");
+       // Debug.Log("End of Screen");
     }
 
     public void TimelineController()
     {
-        Debug.Log("Value changed to " + slider.value);
+      //  Debug.Log("Value changed to " + slider.value);
         
         switch(slider.value)
         {
