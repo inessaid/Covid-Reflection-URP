@@ -23,6 +23,11 @@ public class SliderCoroutine : MonoBehaviour
         yield return new WaitForSeconds(5f);
         this.GetComponent<Slider>().value = 5;
         yield return new WaitForSeconds(5f);
+        this.GetComponent<Slider>().value = 6;
+        yield return new WaitForSeconds(5f);
+        this.GetComponent<Slider>().value = 7;
+        yield return new WaitForSeconds(5f);
+        this.GetComponent<Slider>().value = 8;
 
     }
 

@@ -6,7 +6,7 @@ using TMPro;
 
 public class Timeline : MonoBehaviour
 {
-    public GameObject body, startButton, germCloud, covidParticle, lungs;
+    public GameObject body, sampleButton, germCloud, covidParticle, lungs;
     public Vector3 startButtonPosition = new Vector3(0.4f, 0.9f, 0f);
     public Vector3 germCloudPosition = new Vector3(0f, 0f, -2f);
     public GameObject sliderGB, logo;
@@ -39,7 +39,10 @@ public class Timeline : MonoBehaviour
     public void StartScreen()
     {
         var prefabLocation = body.transform.localPosition + startButtonPosition;
-        Instantiate(startButton, prefabLocation, Quaternion.identity);
+        var instantiatedButton =  Instantiate(sampleButton, prefabLocation, Quaternion.identity);
+        instantiatedButton.gameObject.name = "Start";
+
+        state.gameObject.SetActive(true);
     } 
     public void PreCovid()
     {
@@ -49,7 +52,7 @@ public class Timeline : MonoBehaviour
         logo.SetActive(false);
         // enable logo
         sliderGB.SetActive(true);
-        GameObject.Find("StartUI(Clone)").SetActive(false);
+        GameObject.Find("Start").SetActive(false);
         GameObject.FindGameObjectWithTag("Logo").SetActive(false);
         
     }
@@ -99,7 +102,28 @@ public class Timeline : MonoBehaviour
     }
     public void BenefitOfVaccination()
     {
+        state.SetText("Benefit Of Vaccination");
         Debug.Log("Benefit Of Vaccination");
+    }
+    public void FreeForm()
+    {
+        state.SetText("Free Form");
+        Debug.Log("Free Form");
+        for (int i = 0; i < 4; i++)
+        {
+            // right Button
+            var prefabLocationRight = body.transform.localPosition + new Vector3(0.4f, i-1, 0f);
+            var instantiatedButtonRight = Instantiate(sampleButton, prefabLocationRight, Quaternion.identity);
+            instantiatedButtonRight.gameObject.name = "right" + " " + i.ToString();
+
+            // Left Button
+
+            var prefabLocationLeft = body.transform.localPosition + new Vector3(-0.4f, i-1, 0f);
+            var instantiatedButtonLeft = Instantiate(sampleButton, prefabLocationLeft, Quaternion.identity);
+            instantiatedButtonLeft.gameObject.name = "Left" + " " + i.ToString();
+
+
+        }
     }
     public void EndScreen()
     {
@@ -135,6 +159,9 @@ public class Timeline : MonoBehaviour
                 break;
             case 7:
                 BenefitOfVaccination();
+                break;
+            case 8:
+                FreeForm();
                 break;
 
         }
