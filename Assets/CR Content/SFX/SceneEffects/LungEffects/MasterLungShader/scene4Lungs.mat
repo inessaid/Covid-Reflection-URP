@@ -40,10 +40,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_62e932da425943b09f5be32ebb59f09f: 1
     - Vector1_743e75b065424cfcb8da2af93f7a7418: 0
     - Vector1_996d2cb045ea431d90e6cebb88869ada: 0.86
     - Vector1_a36b144688d740d0a29689553997c7cc: 0.37
     - Vector1_b09bc334c98948018bf861de0b9d0863: 4.9
+    - _alpha: 1
+    - _base_trigger: 1
+    - _particle_trigger: 0
+    - _pneumonia_trigger: 0
     m_Colors:
     - Color_2e5e2b6950444abda7f47b0b8058e3ff: {r: 1, g: 0, b: 0, a: 0}
     - Color_9db57decc8a24f229544891b4800cab8: {r: 0.5607843, g: 0, b: 0, a: 0}
