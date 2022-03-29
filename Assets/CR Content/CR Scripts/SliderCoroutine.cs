@@ -14,17 +14,18 @@ public class SliderCoroutine : MonoBehaviour
 
     IEnumerator Fade()
     {
-
+        // precovid
         this.GetComponent<Slider>().value = 1;
         yield return new WaitForSeconds(waitTime);
+        //
         this.GetComponent<Slider>().value = 2;
         yield return new WaitForSeconds(waitTime);
         this.GetComponent<Slider>().value = 3;
         yield return new WaitForSeconds(waitTime);
         this.GetComponent<Slider>().value = 4;
-        yield return new WaitForSeconds(25);
+        yield return new WaitForSeconds(waitTime +waitTime);
         this.GetComponent<Slider>().value = 5;
-        yield return new WaitForSeconds(waitTime);
+        yield return new WaitForSeconds(waitTime + waitTime);
         this.GetComponent<Slider>().value = 6;
         yield return new WaitForSeconds(waitTime);
         this.GetComponent<Slider>().value = 7;

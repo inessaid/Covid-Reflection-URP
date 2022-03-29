@@ -7,6 +7,8 @@ public class StartExperience : MonoBehaviour
     
     public GameObject body;
     public Timeline timeline;
+    private int i = 0;
+    private float  growFactor =0 ;
 
     // Start is called before the first frame update
     void Start()
@@ -23,15 +25,32 @@ public class StartExperience : MonoBehaviour
         this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, body.transform.position.z);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
+        i++;
+        growFactor = growFactor + 0.00001f ;
+
+        Debug.Log("Grow factor" + growFactor);
         Debug.Log("Triggered");
+        Debug.Log(i);
+        this.gameObject.transform.localScale = this.gameObject.transform.localScale  + new Vector3(growFactor ,growFactor ,growFactor);
+
+        if (i==120)
+        {
+            if (this.gameObject.name == "Start")
+            {
+                timeline.PreCovid();
+            }
+            else this.gameObject.SetActive(false);
+        }
+      //  timeline.PreCovid();
 
 
 
-        timeline.PreCovid();
+    }
 
-
-
+    IEnumerator TriggerButtonAction()
+    {
+        yield return new WaitForSeconds(5);
     }
 }

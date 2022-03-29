@@ -1014,7 +1014,7 @@ PrefabInstance:
     - target: {fileID: 137488274886211070, guid: 5ef907a77ab8c47ea87953b9b75a11b7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 747822176}
+      objectReference: {fileID: 951512993}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ef907a77ab8c47ea87953b9b75a11b7, type: 3}
 --- !u!1 &743868037
@@ -1048,7 +1048,49 @@ Transform:
   m_Father: {fileID: 1352461930}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -0.576, y: 90, z: 0.502}
---- !u!21 &747822176
+--- !u!1 &811530134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 811530135}
+  m_Layer: 0
+  m_Name: Audios
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &811530135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811530134}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.09293218, y: 0.35846895, z: 0.05703032}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 163361873}
+  - {fileID: 1679019407}
+  - {fileID: 2089956772}
+  - {fileID: 1719371347}
+  - {fileID: 207707989}
+  - {fileID: 1008813140}
+  - {fileID: 1998001732}
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &935091493 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1633487744486694252, guid: 36078ab0369161e49a29d349ae3e0739, type: 3}
+  m_PrefabInstance: {fileID: 1891259749}
+  m_PrefabAsset: {fileID: 0}
+--- !u!21 &951512993
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -1061,7 +1103,11 @@ Material:
     (Instance) (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
     (Instance) (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
     (Instance) (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
-    (Instance) (Instance) (Instance)
+    (Instance) (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
+    (Instance) (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
+    (Instance) (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
+    (Instance) (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
+    (Instance) (Instance)
   m_Shader: {fileID: -6465566751694194690, guid: e63610d8422d9c849afc3597f2641db7, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -1110,48 +1156,6 @@ Material:
     - Color_ce216be8d222457f8a371a68caa9ae62: {r: 1, g: 0, b: 0, a: 0}
     - Vector2_1a2f329d756245b0b3474f6b0cb5bdf7: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!1 &811530134
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 811530135}
-  m_Layer: 0
-  m_Name: Audios
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &811530135
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811530134}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.09293218, y: 0.35846895, z: 0.05703032}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 163361873}
-  - {fileID: 1679019407}
-  - {fileID: 2089956772}
-  - {fileID: 1719371347}
-  - {fileID: 207707989}
-  - {fileID: 1008813140}
-  - {fileID: 1998001732}
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &935091493 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -1633487744486694252, guid: 36078ab0369161e49a29d349ae3e0739, type: 3}
-  m_PrefabInstance: {fileID: 1891259749}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &984163514
 GameObject:
   m_ObjectHideFlags: 0
@@ -7442,6 +7446,10 @@ PrefabInstance:
     - target: {fileID: 7459588554650881023, guid: 74cb0ec970ca02f4f9c9a54b00200ebc, type: 3}
       propertyPath: m_Name
       value: SliderCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7459588554685345054, guid: 74cb0ec970ca02f4f9c9a54b00200ebc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7459588555636745751, guid: 74cb0ec970ca02f4f9c9a54b00200ebc, type: 3}
       propertyPath: m_AnchorMax.x
