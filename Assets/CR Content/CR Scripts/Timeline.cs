@@ -9,7 +9,7 @@ public class Timeline : MonoBehaviour
     public GameObject body, sampleButton, germCloud, covidParticle, lungs;
     public Vector3 startButtonPosition = new Vector3(0.4f, 0.9f, 0f);
     public Vector3 germCloudPosition = new Vector3(0f, 0f, -2f);
-    public GameObject sliderGB, logo;
+    public GameObject sliderGB, logo, timer;
     public Slider slider;
     [SerializeField] private Renderer lungRenderer, humanRenderer;
    // public Material lungWithCovidMat, lungWithPneumonia;
@@ -80,16 +80,24 @@ public class Timeline : MonoBehaviour
 
         //}
 
+        
     }
 
     public void StartScreen()
     {
-       // humanRenderer.material.SetColor("_edge_color", originalColor);
+        // humanRenderer.material.SetColor("_edge_color", originalColor);
+        
         var prefabLocation = body.transform.localPosition + startButtonPosition;
         var instantiatedButton =  Instantiate(sampleButton, prefabLocation, Quaternion.identity);
         instantiatedButton.gameObject.name = "Start";
 
         state.gameObject.SetActive(true);
+        sliderGB.SetActive(false);
+        timer.SetActive(false);
+       
+        lungRenderer.material.SetFloat("_particle_trigger", 0f);
+        lungRenderer.material.SetFloat("_base_trigger", 0f);
+        lungRenderer.material.SetFloat("_pneumonia_trigger", 0f);
     } 
     public void PreCovid()
     {
@@ -97,7 +105,8 @@ public class Timeline : MonoBehaviour
        // state.SetText("Pre Covid");
         state.text = "Pre Covid";
         audios[0].Play();
-        
+        timer.SetActive(true);
+        slider.value = 1;
         lungRenderer.material.SetFloat("_particle_trigger", 0f);
         lungRenderer.material.SetFloat("_base_trigger", 1f);
         lungRenderer.material.SetFloat("_pneumonia_trigger", 0f);
@@ -106,7 +115,7 @@ public class Timeline : MonoBehaviour
         // enable logo
         sliderGB.SetActive(true);
         GameObject.Find("Start").SetActive(false);
-        GameObject.FindGameObjectWithTag("Logo").SetActive(false);
+        //GameObject.FindGameObjectWithTag("Logo").SetActive(false);
         
     }
     public void FirstExposure()

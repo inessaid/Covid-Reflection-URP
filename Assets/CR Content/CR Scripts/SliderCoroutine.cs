@@ -11,6 +11,10 @@ public class SliderCoroutine : MonoBehaviour
         StartCoroutine(Fade());
     }
 
+    private void Update()
+    {
+        
+    }
 
     IEnumerator Fade()
     {
