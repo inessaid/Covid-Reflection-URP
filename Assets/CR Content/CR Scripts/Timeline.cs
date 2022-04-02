@@ -11,7 +11,7 @@ public class Timeline : MonoBehaviour
     public Vector3 germCloudPosition = new Vector3(0f, 0f, -2f);
     public GameObject sliderGB, logo;
     public Slider slider;
-    [SerializeField] private Renderer lungRenderer;
+    [SerializeField] private Renderer lungRenderer, humanRenderer;
    // public Material lungWithCovidMat, lungWithPneumonia;
     public TMP_Text state;
     private float counter=0;
@@ -19,6 +19,7 @@ public class Timeline : MonoBehaviour
     public float speed;
     private bool particleTrigger, pneumoniaTrigger;
     public AudioSource[] audios;
+    private Color originalColor;
   
    // public Material lungMaterial;
 
@@ -35,9 +36,13 @@ public class Timeline : MonoBehaviour
     {
         //sliderGB = GameObject.FindGameObjectWithTag("Slider");
         counter = 0;
+       
         counterTrigger = false;
         particleTrigger = false;
         pneumoniaTrigger = false;
+        originalColor = humanRenderer.material.GetColor("_edge_color");
+        
+
     }
 
     // Update is called once per frame
@@ -79,6 +84,7 @@ public class Timeline : MonoBehaviour
 
     public void StartScreen()
     {
+       // humanRenderer.material.SetColor("_edge_color", originalColor);
         var prefabLocation = body.transform.localPosition + startButtonPosition;
         var instantiatedButton =  Instantiate(sampleButton, prefabLocation, Quaternion.identity);
         instantiatedButton.gameObject.name = "Start";
@@ -135,6 +141,9 @@ public class Timeline : MonoBehaviour
         //Debug.Log("Covid Sets In");
         state.SetText("Covid Sets In");
         audios[3].Play();
+        humanRenderer.materials[0].SetColor("_edge_color", Color.yellow);
+        humanRenderer.materials[1].SetColor("_edge_color", Color.yellow);
+        humanRenderer.materials[2].SetColor("_edge_color", Color.yellow);
         covidParticle.SetActive(false);
         lungRenderer.material.SetFloat("_alpha", 1f);
         // lungRenderer.material = lungWithCovidMat;
@@ -158,12 +167,18 @@ public class Timeline : MonoBehaviour
     public void LungFailure()
     {
         state.SetText("Lung Failure");
+        humanRenderer.materials[0].SetColor("_edge_color", Color.red);
+        humanRenderer.materials[1].SetColor("_edge_color", Color.red);
+        humanRenderer.materials[2].SetColor("_edge_color", Color.red);
         audios[5].Play();
         // Debug.Log("Lung Failure");
     }
     public void BenefitOfVaccination()
     {
         state.SetText("Benefit Of Vaccination");
+        humanRenderer.materials[0].SetColor("_edge_color", originalColor);
+        humanRenderer.materials[1].SetColor("_edge_color", originalColor);
+        humanRenderer.materials[2].SetColor("_edge_color", originalColor);
         audios[6].Play();
         // Debug.Log("Benefit Of Vaccination");
     }

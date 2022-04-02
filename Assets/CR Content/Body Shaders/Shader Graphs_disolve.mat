@@ -49,4 +49,5 @@ Material:
     m_Colors:
     - EdgeColor: {r: 0.04373504, g: 0.9046614, b: 0.708376, a: 1}
     - _Color: {r: 0.25485048, g: 0.49927196, b: 0.6509434, a: 0}
+    - _edge_color: {r: 0, g: 0.7490196, b: 0.5803922, a: 1}
   m_BuildTextureStacks: []
