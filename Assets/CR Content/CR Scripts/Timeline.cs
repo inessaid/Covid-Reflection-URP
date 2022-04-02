@@ -13,7 +13,7 @@ public class Timeline : MonoBehaviour
     public Slider slider;
     [SerializeField] private Renderer lungRenderer, humanRenderer;
    // public Material lungWithCovidMat, lungWithPneumonia;
-    public TMP_Text state;
+    public Text state;
     private float counter=0;
     private bool counterTrigger;
     public float speed;
@@ -94,7 +94,8 @@ public class Timeline : MonoBehaviour
     public void PreCovid()
     {
        // Debug.Log("preCovid");
-        state.SetText("Pre Covid");
+       // state.SetText("Pre Covid");
+        state.text = "Pre Covid";
         audios[0].Play();
         
         lungRenderer.material.SetFloat("_particle_trigger", 0f);
@@ -111,7 +112,8 @@ public class Timeline : MonoBehaviour
     public void FirstExposure()
     {
         //Debug.Log("First Exposure");
-        state.SetText("First Exposure");
+        // state.SetText("First Exposure");
+        state.text = "First Exposure";
         audios[1].Play();
 
         // instantiate Covid particles
@@ -120,8 +122,9 @@ public class Timeline : MonoBehaviour
     }
     public void TravelToLungs()
     {
-       // Debug.Log("Travel to lungs");
-        state.SetText("Travel To Lungs");
+        // Debug.Log("Travel to lungs");
+        // state.SetText("Travel To Lungs");
+        state.text = "Travel To Lungs";
 
         audios[2].Play();
         // set oof  particle germs 
@@ -139,7 +142,8 @@ public class Timeline : MonoBehaviour
     public void CovidSetsIn()
     {
         //Debug.Log("Covid Sets In");
-        state.SetText("Covid Sets In");
+        //state.SetText("Covid Sets In");
+        state.text = "Covid Sets In";
         audios[3].Play();
         humanRenderer.materials[0].SetColor("_edge_color", Color.yellow);
         humanRenderer.materials[1].SetColor("_edge_color", Color.yellow);
@@ -155,8 +159,9 @@ public class Timeline : MonoBehaviour
     }
     public void CovidWorsens()
     {
-       // Debug.Log("Covid Worsens");
-        state.SetText("Covid Worsens");
+        // Debug.Log("Covid Worsens");
+        //state.SetText("Covid Worsens");
+        state.text = "Covid Worsens";
         audios[4].Play();
         // lungRenderer.material = lungWithPneumonia;
         //counterTrigger = true;
@@ -166,7 +171,8 @@ public class Timeline : MonoBehaviour
     }
     public void LungFailure()
     {
-        state.SetText("Lung Failure");
+        //state.SetText("Lung Failure");
+        state.text = "Lung Failure";
         humanRenderer.materials[0].SetColor("_edge_color", Color.red);
         humanRenderer.materials[1].SetColor("_edge_color", Color.red);
         humanRenderer.materials[2].SetColor("_edge_color", Color.red);
@@ -175,7 +181,8 @@ public class Timeline : MonoBehaviour
     }
     public void BenefitOfVaccination()
     {
-        state.SetText("Benefit Of Vaccination");
+        //state.SetText("Benefit Of Vaccination");
+        state.text = "Benefit Of Vaccination";
         humanRenderer.materials[0].SetColor("_edge_color", originalColor);
         humanRenderer.materials[1].SetColor("_edge_color", originalColor);
         humanRenderer.materials[2].SetColor("_edge_color", originalColor);
@@ -184,8 +191,9 @@ public class Timeline : MonoBehaviour
     }
     public void FreeForm()
     {
-        state.SetText("Free Form");
-       // Debug.Log("Free Form");
+        //state.SetText("Free Form");
+        state.text = "Free Form";
+        // Debug.Log("Free Form");
         for (int i = 0; i < 4; i++)
         {
             // right Button
