@@ -203,16 +203,16 @@ public class Timeline : MonoBehaviour
         //state.SetText("Free Form");
         state.text = "Free Form";
         // Debug.Log("Free Form");
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < 2; i++)
         {
             // right Button
-            var prefabLocationRight = body.transform.localPosition + new Vector3(0.4f, i-1, 0f);
+            var prefabLocationRight = body.transform.localPosition + new Vector3(0.5f, i-0.1f, 0f);
             var instantiatedButtonRight = Instantiate(sampleButton, prefabLocationRight, Quaternion.identity);
             instantiatedButtonRight.gameObject.name = "right" + " " + i.ToString();
 
             // Left Button
 
-            var prefabLocationLeft = body.transform.localPosition + new Vector3(-0.4f, i-1, 0f);
+            var prefabLocationLeft = body.transform.localPosition + new Vector3(-0.5f, i-0.1f, 0f);
             var instantiatedButtonLeft = Instantiate(sampleButton, prefabLocationLeft, Quaternion.identity);
             instantiatedButtonLeft.gameObject.name = "Left" + " " + i.ToString();
 
