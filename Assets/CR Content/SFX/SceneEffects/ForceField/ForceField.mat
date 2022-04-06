@@ -46,11 +46,12 @@ Material:
     - Vector1_6ff4362bed55464aab2323a0c624fd5b: 0.1
     - Vector1_9c26f9105f66451cb5c535bbe128ffaa: 0.45
     - Vector1_9e69348c39544d64866fd843e4c5b40f: 0
-    - Vector1_9f64b54fcc64415485e286e7a2c40dbb: -0.153
+    - Vector1_9f64b54fcc64415485e286e7a2c40dbb: -0.2
     - Vector1_b8f20a4fbdda42058d2392dcde3bfc57: 0.26
     - Vector1_d474bc7a4d134db6ba074f400e976033: 0
     - Vector1_d989f238f1f44e64b743b460e3ce06d2: 3.41
     - Vector1_ebafcc54044042afaae4b787fe04bd5d: 0
+    - _disolve: 0.5
     m_Colors:
     - Color_083b323ae9b64813a5043ab752cc11a3: {r: 0, g: 0.19104338, b: 1, a: 0}
     - Color_1dfe4602be7b407fa1723a89c7a182a7: {r: 0.4345549, g: 0.3141361, b: 1.04712, a: 0}

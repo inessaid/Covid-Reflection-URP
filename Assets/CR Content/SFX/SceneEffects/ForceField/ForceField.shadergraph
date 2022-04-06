@@ -9284,7 +9284,7 @@
     },
     "m_Name": "Disolve",
     "m_DefaultReferenceName": "Vector1_9f64b54fcc64415485e286e7a2c40dbb",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "_disolve",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,

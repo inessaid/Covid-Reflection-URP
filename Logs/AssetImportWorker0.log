@@ -4543,3 +4543,1470 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 140.975210 seconds.
+  path: Assets/CR Content/Prefabs/Final_Text_Popout Variant.prefab
+  artifactKey: Guid(70a17198d66713048bd51b8d7749b631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CR Content/Prefabs/Final_Text_Popout Variant.prefab using Guid(70a17198d66713048bd51b8d7749b631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71fec6894c1983dfbe9739c9f019a4c') in 0.074454 seconds 
+  Import took 0.083542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.794305 seconds.
+  path: Assets/MARS/Settings/CompanionResourceSync.asset
+  artifactKey: Guid(35284135505cb45658e56206f5070c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MARS/Settings/CompanionResourceSync.asset using Guid(35284135505cb45658e56206f5070c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d9c23a984195c6a082f073093a9bcd') in 0.009089 seconds 
+  Import took 0.017852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.003162 seconds.
+  path: Assets/MARS/Settings/Resources
+  artifactKey: Guid(f21068f4720b447be84850e56e7313ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MARS/Settings/Resources using Guid(f21068f4720b447be84850e56e7313ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53cc41b38ba88837f2a31ba75d0779a8') in 0.004737 seconds 
+  Import took 0.012094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103353 seconds.
+  path: Assets/MARS/Settings/Resources/ARCoreFacialExpressionSettings.asset
+  artifactKey: Guid(ecc5c4d1d5cdf46cb8127218a3b439b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MARS/Settings/Resources/ARCoreFacialExpressionSettings.asset using Guid(ecc5c4d1d5cdf46cb8127218a3b439b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d963b73f72a4f58ee9927f5e7bad86a') in 0.006102 seconds 
+  Import took 0.012266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/MARS/Settings/Resources/ReasoningModule.asset
+  artifactKey: Guid(496a60f950db9454fb20de9f56e6ff55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MARS/Settings/Resources/ReasoningModule.asset using Guid(496a60f950db9454fb20de9f56e6ff55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a10fad7127fa8a34b80f3ffef8a71b3') in 0.009235 seconds 
+  Import took 0.014458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/MARS/Settings/Resources/MARSMemoryOptions.asset
+  artifactKey: Guid(b6f7125d6edf3451ba348ecca6b0fd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MARS/Settings/Resources/MARSMemoryOptions.asset using Guid(b6f7125d6edf3451ba348ecca6b0fd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c4c5090c512ddd634a52bb424602ae') in 0.008172 seconds 
+  Import took 0.013665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/MARS/Settings/Resources/HoloLensMeshProviderOptions.asset
+  artifactKey: Guid(1eea43f5f77bd4178b0925469e991dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MARS/Settings/Resources/HoloLensMeshProviderOptions.asset using Guid(1eea43f5f77bd4178b0925469e991dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aced6b5dc0819ab5950992e091cfdfa') in 0.005169 seconds 
+  Import took 0.011376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/MARS/Settings/Resources/MarkerProviderSettings.asset
+  artifactKey: Guid(857cea86e9b7d4c379f9abe6feed5b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MARS/Settings/Resources/MarkerProviderSettings.asset using Guid(857cea86e9b7d4c379f9abe6feed5b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96180f77c6f78e0ae1b770bf2203f29e') in 0.005521 seconds 
+  Import took 0.011591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/MARS/Settings/Resources/SimulationEnvironmentSettings.asset
+  artifactKey: Guid(f56c0b8debbeb4a9f9259d8c36aca0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MARS/Settings/Resources/SimulationEnvironmentSettings.asset using Guid(f56c0b8debbeb4a9f9259d8c36aca0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Using layer 30 for simulation environment
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+Unity.XRTools.Utils.XRToolsLoggingUtils:Log (string,UnityEngine.Object) (at Library/PackageCache/com.unity.xrtools.utils@1.4.1/Runtime/XRToolsLoggingUtils.cs:22)
+Unity.MARS.Simulation.SimulationEnvironmentSettings:OnValidate () (at Library/PackageCache/com.unity.mars@1.4.1/Runtime/Scripts/Simulation/SimulationEnvironmentSettings.cs:53)
+
+(Filename: Library/PackageCache/com.unity.xrtools.utils@1.4.1/Runtime/XRToolsLoggingUtils.cs Line: 22)
+
+ -> (artifact id: '236a0abd0216f006d5c6b9069f79d51a') in 0.008401 seconds 
+  Import took 0.014233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/MARS/Settings/Resources/MARSSceneModule.asset
+  artifactKey: Guid(a6e8d52ef1fdd4837b0b2c74822f28af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MARS/Settings/Resources/MARSSceneModule.asset using Guid(a6e8d52ef1fdd4837b0b2c74822f28af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17995a0715cd3449263af8f3ed3ac56') in 0.027599 seconds 
+  Import took 0.034167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/MARS/Settings/Resources/ARFoundationMeshProviderOptions.asset
+  artifactKey: Guid(f438ac4d9daec4ba9b75ed82ff04ddf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MARS/Settings/Resources/ARFoundationMeshProviderOptions.asset using Guid(f438ac4d9daec4ba9b75ed82ff04ddf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10119711b6744b73f1e0a18cdf4b3790') in 0.004866 seconds 
+  Import took 0.010053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/MARS/Settings/Resources/EvaluationSchedulerModule.asset
+  artifactKey: Guid(491f3b8599b1b4e289d77eb48c45bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MARS/Settings/Resources/EvaluationSchedulerModule.asset using Guid(491f3b8599b1b4e289d77eb48c45bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0badceb3f3e8a994b492c4c349bd6aa') in 0.008732 seconds 
+  Import took 0.014334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/MARS/Settings/Resources/MarsTimeModule.asset
+  artifactKey: Guid(502c32e3c9e8c45bab0a48ad98ee75fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MARS/Settings/Resources/MarsTimeModule.asset using Guid(502c32e3c9e8c45bab0a48ad98ee75fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8965d03c118afefb824be30f99b32db8') in 0.007530 seconds 
+  Import took 0.013322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/MARS/Settings/Resources/ProxyForcesFieldSolverModule.asset
+  artifactKey: Guid(e34d13a558e1342d4be6a27a96dcbf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MARS/Settings/Resources/ProxyForcesFieldSolverModule.asset using Guid(e34d13a558e1342d4be6a27a96dcbf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb2292042b69b307d18f1fff209970b') in 0.007947 seconds 
+  Import took 0.014490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/MARS/Settings/Resources/ARKitFacialExpressionSettings.asset
+  artifactKey: Guid(6a4e378c669854d6da053f01a7a6583b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MARS/Settings/Resources/ARKitFacialExpressionSettings.asset using Guid(6a4e378c669854d6da053f01a7a6583b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fd5ac00ff949294d71b837ad4ef978') in 0.004764 seconds 
+  Import took 0.011168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 207.294011 seconds.
+  path: Assets/CR Content/Resources
+  artifactKey: Guid(1ca36142945df174a8a76e52b5c5ab07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CR Content/Resources using Guid(1ca36142945df174a8a76e52b5c5ab07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6054ab40a992973c1a0485411381ac4') in 0.001711 seconds 
+  Import took 0.009141 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007737 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.650 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1650ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1397ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (839ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (658ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.2 MB.
+System memory in use after: 250.1 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7077.
+Total: 15.177800 ms (FindLiveObjects: 0.437000 ms CreateObjectMapping: 0.220800 ms MarkObjects: 13.965900 ms  DeleteObjects: 0.553200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007687 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.596 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1597ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1368ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (847ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (666ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.54 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.2 MB.
+System memory in use after: 250.1 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7082.
+Total: 14.045400 ms (FindLiveObjects: 0.499800 ms CreateObjectMapping: 0.292400 ms MarkObjects: 12.779200 ms  DeleteObjects: 0.472900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007813 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.485 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1485ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1316ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (810ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (637ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.55 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.3 MB.
+System memory in use after: 250.2 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7087.
+Total: 14.416600 ms (FindLiveObjects: 0.488900 ms CreateObjectMapping: 0.283000 ms MarkObjects: 13.152900 ms  DeleteObjects: 0.490700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 910.964090 seconds.
+  path: Assets/CR Content/Prefabs/Final_Text_Popout Variant.prefab
+  artifactKey: Guid(70a17198d66713048bd51b8d7749b631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CR Content/Prefabs/Final_Text_Popout Variant.prefab using Guid(70a17198d66713048bd51b8d7749b631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a68f4360f0c3412239692d4b6757c7') in 0.080485 seconds 
+  Import took 0.089758 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007150 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.505 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1505ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1322ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (811ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (641ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.54 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.3 MB.
+System memory in use after: 250.2 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7092.
+Total: 17.191800 ms (FindLiveObjects: 0.507600 ms CreateObjectMapping: 0.305600 ms MarkObjects: 15.791900 ms  DeleteObjects: 0.585700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007287 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.507 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1507ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1282ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (780ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (614ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.3 MB.
+System memory in use after: 250.2 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7097.
+Total: 13.731600 ms (FindLiveObjects: 0.487100 ms CreateObjectMapping: 0.301100 ms MarkObjects: 12.526400 ms  DeleteObjects: 0.416400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007679 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.552 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1553ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1359ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (834ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (661ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.4 MB.
+System memory in use after: 250.2 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7102.
+Total: 14.729200 ms (FindLiveObjects: 0.513000 ms CreateObjectMapping: 0.304500 ms MarkObjects: 13.367600 ms  DeleteObjects: 0.543200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007120 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.535 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1535ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1313ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (810ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (638ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.4 MB.
+System memory in use after: 250.2 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7107.
+Total: 14.294600 ms (FindLiveObjects: 0.439600 ms CreateObjectMapping: 0.231100 ms MarkObjects: 13.124100 ms  DeleteObjects: 0.498900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007335 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.510 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1511ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1305ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (801ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (631ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.4 MB.
+System memory in use after: 250.2 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7112.
+Total: 13.928200 ms (FindLiveObjects: 0.498700 ms CreateObjectMapping: 0.285900 ms MarkObjects: 12.710400 ms  DeleteObjects: 0.432400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007069 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.538 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1538ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1355ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (820ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (649ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.3 MB.
+System memory in use after: 250.2 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7117.
+Total: 13.950300 ms (FindLiveObjects: 0.497200 ms CreateObjectMapping: 0.284700 ms MarkObjects: 12.669100 ms  DeleteObjects: 0.498300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007097 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.525 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1525ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1338ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (831ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (655ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.4 MB.
+System memory in use after: 250.3 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7122.
+Total: 14.375500 ms (FindLiveObjects: 0.495100 ms CreateObjectMapping: 0.249000 ms MarkObjects: 13.120000 ms  DeleteObjects: 0.510600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007547 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.490 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1490ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1288ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (779ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (613ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.4 MB.
+System memory in use after: 250.3 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7127.
+Total: 14.677600 ms (FindLiveObjects: 0.474900 ms CreateObjectMapping: 0.262900 ms MarkObjects: 13.418500 ms  DeleteObjects: 0.520100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007783 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.541 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1541ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1359ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (838ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (659ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.4 MB.
+System memory in use after: 250.3 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7132.
+Total: 13.623400 ms (FindLiveObjects: 0.487800 ms CreateObjectMapping: 0.285100 ms MarkObjects: 12.422600 ms  DeleteObjects: 0.427300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.077916 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.538 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1538ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1350ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (811ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (638ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.56 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.4 MB.
+System memory in use after: 250.3 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7137.
+Total: 15.296900 ms (FindLiveObjects: 0.455500 ms CreateObjectMapping: 0.264100 ms MarkObjects: 14.120700 ms  DeleteObjects: 0.455900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007658 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.518 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1518ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1302ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (790ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (620ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.38 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.4 MB.
+System memory in use after: 250.3 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7142.
+Total: 13.570700 ms (FindLiveObjects: 0.504200 ms CreateObjectMapping: 0.280200 ms MarkObjects: 12.286100 ms  DeleteObjects: 0.499400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007066 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.517 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1517ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1355ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (839ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (663ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.5 MB.
+System memory in use after: 250.3 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7147.
+Total: 14.074400 ms (FindLiveObjects: 0.497300 ms CreateObjectMapping: 0.302600 ms MarkObjects: 12.764400 ms  DeleteObjects: 0.509300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007148 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.508 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1508ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1344ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (831ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (656ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.44 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.5 MB.
+System memory in use after: 250.3 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7152.
+Total: 14.103900 ms (FindLiveObjects: 0.498400 ms CreateObjectMapping: 0.293200 ms MarkObjects: 12.818000 ms  DeleteObjects: 0.493500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007102 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.520 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1521ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1313ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (801ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (631ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.5 MB.
+System memory in use after: 250.3 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7157.
+Total: 14.618800 ms (FindLiveObjects: 0.507500 ms CreateObjectMapping: 0.276900 ms MarkObjects: 13.325300 ms  DeleteObjects: 0.508200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007952 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.608 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1608ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1414ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (867ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (684ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.5 MB.
+System memory in use after: 250.4 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7162.
+Total: 15.160600 ms (FindLiveObjects: 0.574800 ms CreateObjectMapping: 0.284500 ms MarkObjects: 13.785400 ms  DeleteObjects: 0.515000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007294 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.541 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1541ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1311ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (795ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (626ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.42 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.5 MB.
+System memory in use after: 250.4 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7167.
+Total: 14.025600 ms (FindLiveObjects: 0.493100 ms CreateObjectMapping: 0.257800 ms MarkObjects: 12.781300 ms  DeleteObjects: 0.492400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007177 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
+Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
+- Completed reload, in  1.605 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1605ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1431ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (889ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (701ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.63 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6017 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.5 MB.
+System memory in use after: 250.4 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 7172.
+Total: 15.313700 ms (FindLiveObjects: 0.444500 ms CreateObjectMapping: 0.238200 ms MarkObjects: 14.191400 ms  DeleteObjects: 0.438800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

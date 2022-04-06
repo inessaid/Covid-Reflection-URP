@@ -6,7 +6,7 @@ using TMPro;
 
 public class Timeline : MonoBehaviour
 {
-    public GameObject body, sampleButton, germCloud, covidParticle, lungs;
+    public GameObject body, sampleButton, germCloud, covidParticle, lungs, forceField;
     public Vector3 startButtonPosition = new Vector3(0.4f, 0.9f, 0f);
     public Vector3 germCloudPosition = new Vector3(0f, 0f, -2f);
     public GameObject sliderGB, logo, timer;
@@ -192,6 +192,7 @@ public class Timeline : MonoBehaviour
     {
         //state.SetText("Benefit Of Vaccination");
         state.text = "Benefit Of Vaccination";
+        forceField.SetActive(true);
         humanRenderer.materials[0].SetColor("_edge_color", originalColor);
         humanRenderer.materials[1].SetColor("_edge_color", originalColor);
         humanRenderer.materials[2].SetColor("_edge_color", originalColor);
@@ -200,6 +201,7 @@ public class Timeline : MonoBehaviour
     }
     public void FreeForm()
     {
+        forceField.SetActive(false);
         //state.SetText("Free Form");
         state.text = "Free Form";
         // Debug.Log("Free Form");
