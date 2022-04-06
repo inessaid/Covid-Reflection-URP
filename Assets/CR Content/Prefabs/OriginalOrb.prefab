@@ -142,5 +142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   body: {fileID: 0}
+  UIprefab: {fileID: 1711856640626048269, guid: 70a17198d66713048bd51b8d7749b631, type: 3}
   timeline: {fileID: 0}
-  growFactor: 1.2
+  buttonOption: 
+  answerTextBody: {fileID: 0}

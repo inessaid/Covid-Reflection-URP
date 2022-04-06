@@ -215,7 +215,7 @@ public class Timeline : MonoBehaviour
 
             var prefabLocationLeft = body.transform.localPosition + new Vector3(-0.5f, i-0.1f, 0f);
             var instantiatedButtonLeft = Instantiate(sampleButton, prefabLocationLeft, Quaternion.identity);
-            instantiatedButtonLeft.gameObject.name = "Left" + " " + i.ToString();
+            instantiatedButtonLeft.gameObject.name = "left" + " " + i.ToString();
 
 
         }

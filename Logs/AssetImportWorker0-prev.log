@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'en' Physical Memory: 65446 MB
+OS: 'Windows 10  (10.0.19042) 64bit Enterprise' Language: 'en' Physical Memory: 32695 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,77 +11,72 @@ C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/inessaid/Documents/GitHub/Covid-Reflection-URP
+C:/Users/edelhagen/Documents/GitHubRepos/Covid-Reflection-URP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50306
-Successfully changed project path to: C:/Users/inessaid/Documents/GitHub/Covid-Reflection-URP
-C:/Users/inessaid/Documents/GitHub/Covid-Reflection-URP
+59164
+Successfully changed project path to: C:/Users/edelhagen/Documents/GitHubRepos/Covid-Reflection-URP
+C:/Users/edelhagen/Documents/GitHubRepos/Covid-Reflection-URP
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 212.01 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 120.71 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/inessaid/Documents/GitHub/Covid-Reflection-URP/Assets
+[Subsystems] Discovering subsystems at path C:/Users/edelhagen/Documents/GitHubRepos/Covid-Reflection-URP/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
     Vendor:   
-    VRAM:     7988 MB
-    Driver:   30.0.14.7168
+    VRAM:     11049 MB
+    Driver:   30.0.14.9649
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003306 seconds.
+Registered in 0.001750 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 174.86 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 106.70 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
+- Completed reload, in  0.531 seconds
 Domain Reload Profiling:
-	ReloadAssembly (969ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (531ms)
+		BeginReloadAssembly (47ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (801ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (423ms)
+			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (225ms)
+			SetupTypeCache (115ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (378ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (202ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (175ms)
-				BeforeProcessingInitializeOnLoad (24ms)
-				ProcessInitializeOnLoadAttributes (129ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.017828 seconds.
+Registered in 0.009835 seconds.
 Begin MonoManager ReloadAssembly
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 154.89 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 116.04 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
@@ -90,45 +85,45 @@ Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3
 Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
 Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
 Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-- Completed reload, in  4.560 seconds
+- Completed reload, in  2.603 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4561ms)
-		BeginReloadAssembly (215ms)
+	ReloadAssembly (2604ms)
+		BeginReloadAssembly (128ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (4253ms)
-			LoadAssemblies (178ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (2421ms)
+			LoadAssemblies (123ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (613ms)
+			SetupTypeCache (471ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (155ms)
-			SetupLoadedEditorAssemblies (2996ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (1565ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (155ms)
-				BeforeProcessingInitializeOnLoad (309ms)
-				ProcessInitializeOnLoadAttributes (2390ms)
-				ProcessInitializeOnLoadMethodAttributes (122ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (1218ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 2.00 ms, found 7 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6191 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 251.9 MB.
-System memory in use after: 251.9 MB.
+System memory in use before: 253.1 MB.
+System memory in use after: 252.9 MB.
 
-Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 6600.
-Total: 23.192300 ms (FindLiveObjects: 0.608300 ms CreateObjectMapping: 0.494400 ms MarkObjects: 21.485100 ms  DeleteObjects: 0.602600 ms)
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 6601.
+Total: 14.622800 ms (FindLiveObjects: 0.511500 ms CreateObjectMapping: 0.158200 ms MarkObjects: 13.541500 ms  DeleteObjects: 0.410200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -137,1331 +132,119 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/CR Content/Audio files/First exposure.mp3
-  artifactKey: Guid(986ca902d71cd2946a338f9c7f2c1c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Audio files/First exposure.mp3 using Guid(986ca902d71cd2946a338f9c7f2c1c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452ba2bb9812ed9d1faa861a5f443f21') in 0.239397 seconds 
-  Import took 0.254479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/CR Content/Audio files/Pre covid.mp3
-  artifactKey: Guid(ebb90e3065682654c9eeca527aa7634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Audio files/Pre covid.mp3 using Guid(ebb90e3065682654c9eeca527aa7634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f644b18ca1a197a330eebd2779c71e') in 0.024582 seconds 
-  Import took 0.038118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/CR Content/Audio files/Vaccination.mp3
-  artifactKey: Guid(e46b744b7471e1447bde3301de28dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Audio files/Vaccination.mp3 using Guid(e46b744b7471e1447bde3301de28dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b5505d883c8bdb82c26d46ddf7979e') in 0.031675 seconds 
-  Import took 0.045093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/CR Content/Audio files/Travel to lungs.mp3
-  artifactKey: Guid(ad5b976e627b0874698489ec87970f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Audio files/Travel to lungs.mp3 using Guid(ad5b976e627b0874698489ec87970f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe90ae483c302ddb1e852dd4bed9af2c') in 0.031977 seconds 
-  Import took 0.046195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/CR Content/Audio files/Covid worsens.mp3
-  artifactKey: Guid(72adb50c29dbfa84d862211f79c9c631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Audio files/Covid worsens.mp3 using Guid(72adb50c29dbfa84d862211f79c9c631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68151245b6045a43943794014f015de') in 0.040320 seconds 
-  Import took 0.060905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/CR Content/Audio files/Lung failure.mp3
-  artifactKey: Guid(4bf6864afc9dc6a468afd4c847662786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Audio files/Lung failure.mp3 using Guid(4bf6864afc9dc6a468afd4c847662786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64f6f20e49d8d50ab6bee33182db102') in 0.025199 seconds 
-  Import took 0.039212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/CR Content/Body Shaders/shaderWithHole.mat
-  artifactKey: Guid(62cf66e893665514bb7e6da3cca4d772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Body Shaders/shaderWithHole.mat using Guid(62cf66e893665514bb7e6da3cca4d772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd2f705dd44e50a7105e49654cdcff9') in 1.132533 seconds 
-  Import took 1.147470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/CR Content/Audio files/Covid sets in.mp3
-  artifactKey: Guid(20755d3af49981c41bc0e81da943aa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Audio files/Covid sets in.mp3 using Guid(20755d3af49981c41bc0e81da943aa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4f853e477038325810ac7535ee9546') in 0.031373 seconds 
-  Import took 0.047378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/CR Content/Audio files/Vaccine contents.mp3
-  artifactKey: Guid(d00e11f456503a4419030e9592e99baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Audio files/Vaccine contents.mp3 using Guid(d00e11f456503a4419030e9592e99baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74363f248951d65fbb8202ad420275f') in 0.031681 seconds 
-  Import took 0.056141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/CR Content/Body Shaders/Shader Graphs_disolve.mat
-  artifactKey: Guid(a0a30d82e13614648b167649c4da21fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Body Shaders/Shader Graphs_disolve.mat using Guid(a0a30d82e13614648b167649c4da21fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dc1d63518220397ad589d97054ddb0') in 1.581207 seconds 
-  Import took 1.594687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/CR Content/Prefabs/CR_Room-3DView-{3D}.fbx
-  artifactKey: Guid(d2a21f19dcd03ba4bbdf86497fbf0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Prefabs/CR_Room-3DView-{3D}.fbx using Guid(d2a21f19dcd03ba4bbdf86497fbf0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdeaf1ecf99efa547b843dbed51f7a1a') in 0.284721 seconds 
-  Import took 0.302019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/CR Content/Images/COVIDREFLECTION_LOGO.png
-  artifactKey: Guid(eba71fdfe5928e3418532f35f5554434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Images/COVIDREFLECTION_LOGO.png using Guid(eba71fdfe5928e3418532f35f5554434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd42dffc44bd816a9cdb304ba5953e1e') in 0.115816 seconds 
-  Import took 0.127903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/CR Content/Prefabs/SliderCanvas.prefab
-  artifactKey: Guid(74cb0ec970ca02f4f9c9a54b00200ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Prefabs/SliderCanvas.prefab using Guid(74cb0ec970ca02f4f9c9a54b00200ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f63c8199fd455629551f1e8980bfce8') in 0.103733 seconds 
-  Import took 0.116639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/CR Content/Prefabs/Post-process Volume.prefab
-  artifactKey: Guid(bd611d70e75d2402b863ddd9749e3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Prefabs/Post-process Volume.prefab using Guid(bd611d70e75d2402b863ddd9749e3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a7b7cb918023e125ac0c867eab08ac') in 0.018896 seconds 
-  Import took 0.032506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/CR Content/Prefabs/OriginalOrb.prefab
-  artifactKey: Guid(faa90f51d347b7d46afa5dd439e6582c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Prefabs/OriginalOrb.prefab using Guid(faa90f51d347b7d46afa5dd439e6582c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0390e13bbc3a4b4698ef67188625b1') in 0.047674 seconds 
-  Import took 0.061991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/CR Content/Audio files/Already contracted.mp3
-  artifactKey: Guid(002cc32f6b81d5f45883bfdafd1faeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Audio files/Already contracted.mp3 using Guid(002cc32f6b81d5f45883bfdafd1faeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbdb53b8c63ce902716bcc74b2d6c8bb') in 0.026637 seconds 
-  Import took 0.043779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/CR Content/Audio files/How long.mp3
-  artifactKey: Guid(499c2571e8353ac43a10bed24c1162f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Audio files/How long.mp3 using Guid(499c2571e8353ac43a10bed24c1162f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c604fa0e2599c140726c2c47ca8c77f1') in 0.023935 seconds 
-  Import took 0.038232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/CR Content/Prefabs/StartUI.prefab
-  artifactKey: Guid(b90af8eb698cd134f95113667a265045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Prefabs/StartUI.prefab using Guid(b90af8eb698cd134f95113667a265045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe761f1078b11ebbef912e33d3eaba85') in 0.530666 seconds 
-  Import took 0.544867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1984.462909 seconds.
-  path: Assets/Allegorithmic/Plugins/Substance.EditorHelper/Substance.EditorHelper.asmdef
-  artifactKey: Guid(a46b712d5dad9df4d93e9725ef567b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Allegorithmic/Plugins/Substance.EditorHelper/Substance.EditorHelper.asmdef using Guid(a46b712d5dad9df4d93e9725ef567b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504d4fc984ad33690bf1de9973f90903') in 0.012222 seconds 
-  Import took 0.031165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.846940 seconds.
-  path: Assets/ForceField/ForceField.mat
-  artifactKey: Guid(4ca955a50d4bfbc43adfc006b6ae2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ForceField/ForceField.mat using Guid(4ca955a50d4bfbc43adfc006b6ae2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed0eb69b5537c0de2dbb98ee168d4a0') in 0.698509 seconds 
-  Import took 0.716079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.117918 seconds.
-  path: Assets/Materials/Skybox_Mat.mat
-  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e587b2d9f39b4a8da249a6a8f56a44') in 0.033076 seconds 
-  Import took 0.048394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.625645 seconds.
-  path: Assets/ModuleLoader/Default Island.asset
-  artifactKey: Guid(0ce76fbc890874d98b4cc8b58b6351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModuleLoader/Default Island.asset using Guid(0ce76fbc890874d98b4cc8b58b6351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388e68806ed7a59d5ea0af6eb0f36d3e') in 0.070199 seconds 
-  Import took 0.085881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.405242 seconds.
-  path: Assets/NewEnvironment/CR_NewEnviro.blend
-  artifactKey: Guid(50f8c481a6805eb4a88e8b4d30921bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEnvironment/CR_NewEnviro.blend using Guid(50f8c481a6805eb4a88e8b4d30921bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dc868f6b59c97e5159ff8965f723ef') in 0.301752 seconds 
-  Import took 0.316783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/NewEnvironment/CR_NewEnviro.prefab
-  artifactKey: Guid(abda63b8ff5b6044f887688405414fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEnvironment/CR_NewEnviro.prefab using Guid(abda63b8ff5b6044f887688405414fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acb1b3ba535c9fc67a12a5b78d7e7de') in 0.586284 seconds 
-  Import took 0.605184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/NewEnvironment/Logo.png
-  artifactKey: Guid(37ac70fe05383c94a8ab87369c4665aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEnvironment/Logo.png using Guid(37ac70fe05383c94a8ab87369c4665aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f995d31a475b8087a9d47d7c96c179') in 0.608357 seconds 
-  Import took 0.622320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/NewEnvironment/Logo.mat
-  artifactKey: Guid(6b6f7c5a0f91ac84aab5f44c22863c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEnvironment/Logo.mat using Guid(6b6f7c5a0f91ac84aab5f44c22863c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978e916ee9c42eeb23a9264199eb65e1') in 0.464795 seconds 
-  Import took 0.484321 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.948489 seconds.
-  path: Assets/SkyBoxExport/AllSky_Space_AnotherPlanet Equirect.mat
-  artifactKey: Guid(13f6e5eed33d84c76979f1ec06b5e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/AllSky_Space_AnotherPlanet Equirect.mat using Guid(13f6e5eed33d84c76979f1ec06b5e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17590a0eafa5edba8651933006efd71') in 2.821230 seconds 
-  Import took 2.843044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/SkyBoxExport/Deep Dusk__Cam_4_Up+Y.png
-  artifactKey: Guid(d6efad16563c1446d86a121dbb004300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/Deep Dusk__Cam_4_Up+Y.png using Guid(d6efad16563c1446d86a121dbb004300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0a6e062ae35c4b099a557077f789b9') in 0.403176 seconds 
-  Import took 0.418124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000490 seconds.
-  path: Assets/SkyBoxExport/Deep Dusk Equirect.mat
-  artifactKey: Guid(c82a334cf5a5e47978749c210cee72a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/Deep Dusk Equirect.mat using Guid(c82a334cf5a5e47978749c210cee72a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf092ca69e3908871cccccd153eee40') in 2.207536 seconds 
-  Import took 2.227023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/StarterAssets/Readme.asset
-  artifactKey: Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Readme.asset using Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0915b8349ee501013f904ef72e20e45') in 0.059626 seconds 
-  Import took 0.077646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/SkyBoxExport/Deep Dusk__Cam_5_Down-Y.png
-  artifactKey: Guid(2e38ed7c39e8e4314930da8a86ae7a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/Deep Dusk__Cam_5_Down-Y.png using Guid(2e38ed7c39e8e4314930da8a86ae7a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b3ad02eb5125302d8060bd44909f5f') in 0.390068 seconds 
-  Import took 0.405708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/SkyBoxExport/Deep Dusk__Cam_0_Front+Z.png
-  artifactKey: Guid(5fdaaa9d974104e6d8f9e575170a0c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/Deep Dusk__Cam_0_Front+Z.png using Guid(5fdaaa9d974104e6d8f9e575170a0c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd27dc0521cb4e92080b1ec3ec81c087') in 0.397714 seconds 
-  Import took 0.413120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000525 seconds.
-  path: Assets/SkyBoxExport/AllSky_Space_AnotherPlanet.mat
-  artifactKey: Guid(656058fe318eb48558d21d66d1a79a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/AllSky_Space_AnotherPlanet.mat using Guid(656058fe318eb48558d21d66d1a79a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b76d6de570c1f76f17b2ccaf15f2842') in 2.139292 seconds 
-  Import took 2.153192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000503 seconds.
-  path: Assets/SkyBoxExport/AllSky_Space_AnotherPlanet_Cam_5_Down-Y.png
-  artifactKey: Guid(3a639720a92414f45b72b16d6db788ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/AllSky_Space_AnotherPlanet_Cam_5_Down-Y.png using Guid(3a639720a92414f45b72b16d6db788ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230396dcdf6605a33974240c8420dfcc') in 0.369727 seconds 
-  Import took 0.389211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/SkyBoxExport/Deep Dusk.mat
-  artifactKey: Guid(b4f152e0498484391a9f0d5a1facf03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/Deep Dusk.mat using Guid(b4f152e0498484391a9f0d5a1facf03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f0ca8c03384d4ffdd3883fc5e2ebd6') in 2.104339 seconds 
-  Import took 2.118506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/SkyBoxExport/AllSky_Space_AnotherPlanet_Cam_1_Back-Z.png
-  artifactKey: Guid(0264465325ebb45239163258479c2a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/AllSky_Space_AnotherPlanet_Cam_1_Back-Z.png using Guid(0264465325ebb45239163258479c2a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2332112fe4843ebaf94316cd57e9a4f') in 0.407486 seconds 
-  Import took 0.419987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000487 seconds.
-  path: Assets/SkyBoxExport/Deep Dusk__Cam_2_Left+X.png
-  artifactKey: Guid(519e05b7b3cd14409b4a22d07660cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/Deep Dusk__Cam_2_Left+X.png using Guid(519e05b7b3cd14409b4a22d07660cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de491f5a39a5a96bb4069ad485ef23e') in 0.363037 seconds 
-  Import took 0.382229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6044ec932db1893a14cdcf00054ca8') in 0.012655 seconds 
-  Import took 0.033900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000478 seconds.
-  path: Assets/SkyBoxExport/AllSky_Space_AnotherPlanet Equirect.png
-  artifactKey: Guid(393dd4c82e2a04ec08ef9f57528230c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/AllSky_Space_AnotherPlanet Equirect.png using Guid(393dd4c82e2a04ec08ef9f57528230c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8aaf291c4d53bb442e4ff10157a9bad') in 4.226900 seconds 
-  Import took 4.247454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/SkyBoxExport/Deep Dusk__Cam_3_Right-X.png
-  artifactKey: Guid(47551dad0d90646a9a5dac436076f38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/Deep Dusk__Cam_3_Right-X.png using Guid(47551dad0d90646a9a5dac436076f38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115dd3964ae0c69cb394a7baf3abe9e0') in 0.393556 seconds 
-  Import took 0.407406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/SkyBoxExport/Deep Dusk__Cam_1_Back-Z.png
-  artifactKey: Guid(5e2aba0844c5a4c2ca77ba49a1ea08d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/Deep Dusk__Cam_1_Back-Z.png using Guid(5e2aba0844c5a4c2ca77ba49a1ea08d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4159c87e80282a446abe951d5f48321a') in 0.406417 seconds 
-  Import took 0.420141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/SkyBoxExport/AllSky_Space_AnotherPlanet_Cam_4_Up+Y.png
-  artifactKey: Guid(a6e9f4ff100a94264a812ad74e17416c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/AllSky_Space_AnotherPlanet_Cam_4_Up+Y.png using Guid(a6e9f4ff100a94264a812ad74e17416c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e46e9e19d36d208f301e4c919fd128') in 0.347498 seconds 
-  Import took 0.365223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/SkyBoxExport/Deep Dusk Equirect.png
-  artifactKey: Guid(66e51860485ae4048a30f7e029e65af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/Deep Dusk Equirect.png using Guid(66e51860485ae4048a30f7e029e65af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9264030b9ba72b63cd124e7affa2a03a') in 4.309289 seconds 
-  Import took 4.324475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Settings/UniversalRP-HighQuality.asset
-  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c2b24032df333d31cc5303e07a1183') in 0.009872 seconds 
-  Import took 0.024124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/SkyBoxExport/AllSky_Space_AnotherPlanet_Cam_0_Front+Z.png
-  artifactKey: Guid(0b5345cf23ab840779a8cbf1b89f355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/AllSky_Space_AnotherPlanet_Cam_0_Front+Z.png using Guid(0b5345cf23ab840779a8cbf1b89f355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9961840c47b4209653d994e434325fee') in 0.370492 seconds 
-  Import took 0.384495 seconds .
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.013227 seconds 
+  Import took 0.022250 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000229 seconds.
-  path: Assets/SkyBoxExport/AllSky_Space_AnotherPlanet_Cam_3_Right-X.png
-  artifactKey: Guid(ca9af6b5ce9284592aabb781392ff61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/AllSky_Space_AnotherPlanet_Cam_3_Right-X.png using Guid(ca9af6b5ce9284592aabb781392ff61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273b018243a62167bd487517f672ccc9') in 0.392002 seconds 
-  Import took 0.404772 seconds .
+  path: Assets/ForceField
+  artifactKey: Guid(70b742b820335b9479ce015f88c95eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ForceField using Guid(70b742b820335b9479ce015f88c95eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273454e928c16860d831bce6faf33be6') in 0.005498 seconds 
+  Import took 0.013047 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/SkyBoxExport/AllSky_Space_AnotherPlanet_Cam_2_Left+X.png
-  artifactKey: Guid(40cd83628508d406497f3b21ff220644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkyBoxExport/AllSky_Space_AnotherPlanet_Cam_2_Left+X.png using Guid(40cd83628508d406497f3b21ff220644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e4143d6ef9665e98ba6aff8244c6e9') in 0.351061 seconds 
-  Import took 0.363142 seconds .
+  Time since last request: 0.000236 seconds.
+  path: Assets/ForceField/ForceField.mat
+  artifactKey: Guid(4ca955a50d4bfbc43adfc006b6ae2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ForceField/ForceField.mat using Guid(4ca955a50d4bfbc43adfc006b6ae2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed0eb69b5537c0de2dbb98ee168d4a0') in 0.166109 seconds 
+  Import took 0.174837 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 157.297709 seconds.
-  path: Assets/SoftEffects/EditFolder/PFBeauSansPro-Black_SEFont_0/PFBeauSansPro-Black_se_rep.fontsettings
-  artifactKey: Guid(7f0e6e19f8fe8b6429ca39feca8bef41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SoftEffects/EditFolder/PFBeauSansPro-Black_SEFont_0/PFBeauSansPro-Black_se_rep.fontsettings using Guid(7f0e6e19f8fe8b6429ca39feca8bef41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50700a70e755551577dfc568ceb3433b') in 0.014342 seconds 
-  Import took 0.037116 seconds .
+  Time since last request: 8.030596 seconds.
+  path: Assets/CR Content/Prefabs/body cube.prefab
+  artifactKey: Guid(d50166696476649158e3484e7ca69a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CR Content/Prefabs/body cube.prefab using Guid(d50166696476649158e3484e7ca69a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a99ab54061098fffae0010816ecb64') in 0.032964 seconds 
+  Import took 0.041866 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/SoftEffects/EditFolder/PFBeauSansPro-Black_SEFont_0/PFBeauSansPro-Black_se_rep_edit_work.mat
-  artifactKey: Guid(b14a579dddc11834a8181ab31cc261f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SoftEffects/EditFolder/PFBeauSansPro-Black_SEFont_0/PFBeauSansPro-Black_se_rep_edit_work.mat using Guid(b14a579dddc11834a8181ab31cc261f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2463e9c164c84ddca0977d520f4769') in 0.033255 seconds 
-  Import took 0.048375 seconds .
+  Time since last request: 0.000200 seconds.
+  path: Assets/CR Content/Prefabs/UI Cube.prefab
+  artifactKey: Guid(5a4898692049c4061bd9fd8393fca88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CR Content/Prefabs/UI Cube.prefab using Guid(5a4898692049c4061bd9fd8393fca88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb9e2e73f5a3709c30e703972462ec8') in 0.020042 seconds 
+  Import took 0.027925 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000473 seconds.
-  path: Assets/SoftEffects/EditFolder/PFBeauSansPro-Black_SEFont_0/PFBeauSansPro-Black_se_rep_edit_shadow.png
-  artifactKey: Guid(7b598a424f739644dab0a1b7ebbe37f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SoftEffects/EditFolder/PFBeauSansPro-Black_SEFont_0/PFBeauSansPro-Black_se_rep_edit_shadow.png using Guid(7b598a424f739644dab0a1b7ebbe37f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef94c403521daafebe085e81ca022628') in 0.027916 seconds 
-  Import took 0.041209 seconds .
+  Time since last request: 0.000230 seconds.
+  path: Assets/CR Content/Prefabs/Canvas.prefab
+  artifactKey: Guid(021b83f9693e34977880422e85c327f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CR Content/Prefabs/Canvas.prefab using Guid(021b83f9693e34977880422e85c327f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8fdcef65874dcee8e5275fff3be01c') in 0.010340 seconds 
+  Import took 0.018033 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/SoftEffects/EditFolder/PFBeauSansPro-Black_SEFont_0/PFBeauSansPro-Black_se_rep_edit_work.png
-  artifactKey: Guid(9ce867a1f8957104c9c8c353bef46076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SoftEffects/EditFolder/PFBeauSansPro-Black_SEFont_0/PFBeauSansPro-Black_se_rep_edit_work.png using Guid(9ce867a1f8957104c9c8c353bef46076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd221dac69a2f14a8dadf5563f6330d') in 0.025478 seconds 
-  Import took 0.038990 seconds .
+  Time since last request: 0.000238 seconds.
+  path: Assets/CR Content/Prefabs/lungs animated prefab Variant.prefab
+  artifactKey: Guid(c02b0d31c276649c1b1907912c6e559b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CR Content/Prefabs/lungs animated prefab Variant.prefab using Guid(c02b0d31c276649c1b1907912c6e559b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c954f99afa96db5ee6b922b1e1420658') in 0.185677 seconds 
+  Import took 0.196584 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.836136 seconds.
-  path: Assets/SoftEffects/Examples/Scenes
-  artifactKey: Guid(ffbfe7137d4f85e408f2f0202fc6afd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SoftEffects/Examples/Scenes using Guid(ffbfe7137d4f85e408f2f0202fc6afd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d745c61749754bfd85a9ac83a67f1d') in 0.014931 seconds 
-  Import took 0.029913 seconds .
+  Time since last request: 0.000192 seconds.
+  path: Assets/CR Content/Prefabs/SliderCanvas.prefab
+  artifactKey: Guid(74cb0ec970ca02f4f9c9a54b00200ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CR Content/Prefabs/SliderCanvas.prefab using Guid(74cb0ec970ca02f4f9c9a54b00200ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f63c8199fd455629551f1e8980bfce8') in 0.051789 seconds 
+  Import took 0.059777 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.984665 seconds.
-  path: Assets/SoftEffects/Examples/Scenes/No2.unity
-  artifactKey: Guid(ac9fe049d681f5e47b47b7f8df607f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SoftEffects/Examples/Scenes/No2.unity using Guid(ac9fe049d681f5e47b47b7f8df607f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975baebe2322be64353247443af025af') in 0.014402 seconds 
-  Import took 0.030572 seconds .
+  Time since last request: 0.000184 seconds.
+  path: Assets/CR Content/Prefabs/Post-process Volume.prefab
+  artifactKey: Guid(bd611d70e75d2402b863ddd9749e3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CR Content/Prefabs/Post-process Volume.prefab using Guid(bd611d70e75d2402b863ddd9749e3572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a7b7cb918023e125ac0c867eab08ac') in 0.011735 seconds 
+  Import took 0.019454 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.141280 seconds.
-  path: Assets/SoftEffects/Examples/Scenes/No1.unity
-  artifactKey: Guid(409b36f1651d7ee4983e84e5177398ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SoftEffects/Examples/Scenes/No1.unity using Guid(409b36f1651d7ee4983e84e5177398ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe471a3205766d97c843f2700805435') in 0.010951 seconds 
-  Import took 0.031735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.386162 seconds.
-  path: Assets/CR Content/Prefabs/Popup.prefab
-  artifactKey: Guid(b884516445aaf3449badd0565357c90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Prefabs/Popup.prefab using Guid(b884516445aaf3449badd0565357c90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233ebea6d13cc3ead80fb9952074eab3') in 0.062011 seconds 
-  Import took 0.085536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.038867 seconds.
-  path: Assets/CR Content/Prefabs/Final_Text_Popout.prefab
-  artifactKey: Guid(b884516445aaf3449badd0565357c90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Prefabs/Final_Text_Popout.prefab using Guid(b884516445aaf3449badd0565357c90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5163aba1fe4b40b5e4f124e0701c3099') in 0.034688 seconds 
-  Import took 0.059411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.199763 seconds.
-  path: Assets/Scenes/Covid-Reflection.unity
-  artifactKey: Guid(a56e7fbd8e0f442eda9f8f6775155336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Covid-Reflection.unity using Guid(a56e7fbd8e0f442eda9f8f6775155336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d149b994cbbda9a1fbedb62818475e') in 0.014407 seconds 
-  Import took 0.030749 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.029122 seconds.
-Begin MonoManager ReloadAssembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.91 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-- Completed reload, in  3.695 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3695ms)
-		BeginReloadAssembly (315ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (106ms)
-		EndReloadAssembly (3269ms)
-			LoadAssemblies (187ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (669ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (144ms)
-			SetupLoadedEditorAssemblies (1981ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (237ms)
-				ProcessInitializeOnLoadAttributes (1627ms)
-				ProcessInitializeOnLoadMethodAttributes (97ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.25 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6022 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 243.7 MB.
-System memory in use after: 243.6 MB.
-
-Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 6698.
-Total: 38.189100 ms (FindLiveObjects: 1.068600 ms CreateObjectMapping: 0.811200 ms MarkObjects: 35.586500 ms  DeleteObjects: 0.720900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 11386.037958 seconds.
+  Time since last request: 0.000205 seconds.
   path: Assets/CR Content/Prefabs/OriginalOrb.prefab
   artifactKey: Guid(faa90f51d347b7d46afa5dd439e6582c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Prefabs/OriginalOrb.prefab using Guid(faa90f51d347b7d46afa5dd439e6582c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03c2cf649512e31fc0a6469457be5dd') in 0.293545 seconds 
-  Import took 0.320005 seconds .
+Start importing Assets/CR Content/Prefabs/OriginalOrb.prefab using Guid(faa90f51d347b7d46afa5dd439e6582c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d6f12e8f28b9ae760aaf54b1a537df') in 0.019360 seconds 
+  Import took 0.027269 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000287 seconds.
+  Time since last request: 0.000231 seconds.
+  path: Assets/CR Content/Prefabs/TopLeftPanel.prefab
+  artifactKey: Guid(b56ef8faf26eb4c9fb89a0b3cf441480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CR Content/Prefabs/TopLeftPanel.prefab using Guid(b56ef8faf26eb4c9fb89a0b3cf441480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3145c19506fc207f9ff98d874efbfc') in 0.009620 seconds 
+  Import took 0.018396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/CR Content/Prefabs/Final_Text_Popout.prefab
+  artifactKey: Guid(b884516445aaf3449badd0565357c90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CR Content/Prefabs/Final_Text_Popout.prefab using Guid(b884516445aaf3449badd0565357c90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4dab245bafa73be67aa60e1b71af613') in 0.029585 seconds 
+  Import took 0.038109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
   path: Assets/CR Content/Prefabs/StartUI.prefab
   artifactKey: Guid(b90af8eb698cd134f95113667a265045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CR Content/Prefabs/StartUI.prefab using Guid(b90af8eb698cd134f95113667a265045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e38ba5b9561a25253090a6f312e4bd') in 1.853373 seconds 
-  Import took 1.873190 seconds .
+Start importing Assets/CR Content/Prefabs/StartUI.prefab using Guid(b90af8eb698cd134f95113667a265045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e5d6c616ed3b76977a25b15731e243') in 0.377698 seconds 
+  Import took 0.385396 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019030 seconds.
-Begin MonoManager ReloadAssembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.05 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-- Completed reload, in  3.977 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3978ms)
-		BeginReloadAssembly (322ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (89ms)
-		EndReloadAssembly (3540ms)
-			LoadAssemblies (184ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (663ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (169ms)
-			SetupLoadedEditorAssemblies (2180ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (291ms)
-				ProcessInitializeOnLoadAttributes (1740ms)
-				ProcessInitializeOnLoadMethodAttributes (126ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (36ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.19 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6020 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 244.0 MB.
-System memory in use after: 244.0 MB.
+Received Import Request.
+  Time since last request: 66.741804 seconds.
+  path: Assets/CR Content/SFX/SceneEffects/ForceField/ForceField.prefab
+  artifactKey: Guid(448546168177cbc4db5b7f55532bcce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CR Content/SFX/SceneEffects/ForceField/ForceField.prefab using Guid(448546168177cbc4db5b7f55532bcce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef2ac1deba7c58ed140c0ecae6f55bb') in 0.012968 seconds 
+  Import took 0.021703 seconds .
 
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 6739.
-Total: 20.134600 ms (FindLiveObjects: 0.753600 ms CreateObjectMapping: 0.374300 ms MarkObjects: 18.396900 ms  DeleteObjects: 0.608900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019424 seconds.
-Begin MonoManager ReloadAssembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.54 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-- Completed reload, in  4.332 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4332ms)
-		BeginReloadAssembly (309ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (95ms)
-		EndReloadAssembly (3893ms)
-			LoadAssemblies (222ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (783ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (168ms)
-			SetupLoadedEditorAssemblies (2362ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (331ms)
-				ProcessInitializeOnLoadAttributes (1883ms)
-				ProcessInitializeOnLoadMethodAttributes (122ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.42 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6020 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 244.1 MB.
-System memory in use after: 244.1 MB.
-
-Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 6744.
-Total: 31.323100 ms (FindLiveObjects: 0.789300 ms CreateObjectMapping: 0.530100 ms MarkObjects: 29.374800 ms  DeleteObjects: 0.627400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016109 seconds.
-Begin MonoManager ReloadAssembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.46 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-- Completed reload, in  4.409 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4409ms)
-		BeginReloadAssembly (317ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (100ms)
-		EndReloadAssembly (3986ms)
-			LoadAssemblies (205ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (735ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (161ms)
-			SetupLoadedEditorAssemblies (2496ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (365ms)
-				ProcessInitializeOnLoadAttributes (1970ms)
-				ProcessInitializeOnLoadMethodAttributes (130ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.91 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6020 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 244.1 MB.
-System memory in use after: 244.1 MB.
-
-Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 6749.
-Total: 26.161400 ms (FindLiveObjects: 0.678400 ms CreateObjectMapping: 0.366800 ms MarkObjects: 24.434900 ms  DeleteObjects: 0.680100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.021631 seconds.
-Begin MonoManager ReloadAssembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.90 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-- Completed reload, in  4.165 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4165ms)
-		BeginReloadAssembly (299ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (96ms)
-		EndReloadAssembly (3737ms)
-			LoadAssemblies (211ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (704ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (158ms)
-			SetupLoadedEditorAssemblies (2269ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (296ms)
-				ProcessInitializeOnLoadAttributes (1804ms)
-				ProcessInitializeOnLoadMethodAttributes (139ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.16 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6020 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 244.1 MB.
-System memory in use after: 244.2 MB.
-
-Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 6754.
-Total: 38.319300 ms (FindLiveObjects: 1.008100 ms CreateObjectMapping: 0.776400 ms MarkObjects: 35.840100 ms  DeleteObjects: 0.693100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.021519 seconds.
-Begin MonoManager ReloadAssembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.26 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-- Completed reload, in  4.213 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4213ms)
-		BeginReloadAssembly (282ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (87ms)
-		EndReloadAssembly (3850ms)
-			LoadAssemblies (196ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (704ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (159ms)
-			SetupLoadedEditorAssemblies (2377ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (311ms)
-				ProcessInitializeOnLoadAttributes (1924ms)
-				ProcessInitializeOnLoadMethodAttributes (118ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.15 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6020 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 244.2 MB.
-System memory in use after: 244.2 MB.
-
-Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 6759.
-Total: 39.668100 ms (FindLiveObjects: 1.123300 ms CreateObjectMapping: 0.899400 ms MarkObjects: 36.926200 ms  DeleteObjects: 0.717400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017514 seconds.
-Begin MonoManager ReloadAssembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.63 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-- Completed reload, in  3.876 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3876ms)
-		BeginReloadAssembly (279ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (3488ms)
-			LoadAssemblies (188ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (668ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (142ms)
-			SetupLoadedEditorAssemblies (2143ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (297ms)
-				ProcessInitializeOnLoadAttributes (1727ms)
-				ProcessInitializeOnLoadMethodAttributes (98ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.19 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6020 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 244.1 MB.
-System memory in use after: 244.2 MB.
-
-Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 6764.
-Total: 38.031800 ms (FindLiveObjects: 1.064600 ms CreateObjectMapping: 0.794000 ms MarkObjects: 35.527000 ms  DeleteObjects: 0.644300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018364 seconds.
-Begin MonoManager ReloadAssembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.30 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-- Completed reload, in  4.415 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4416ms)
-		BeginReloadAssembly (324ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (105ms)
-		EndReloadAssembly (3981ms)
-			LoadAssemblies (210ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (740ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (147ms)
-			SetupLoadedEditorAssemblies (2433ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (312ms)
-				ProcessInitializeOnLoadAttributes (1975ms)
-				ProcessInitializeOnLoadMethodAttributes (117ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.08 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6020 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 244.2 MB.
-System memory in use after: 244.2 MB.
-
-Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 6769.
-Total: 39.730400 ms (FindLiveObjects: 1.062500 ms CreateObjectMapping: 0.874300 ms MarkObjects: 37.126900 ms  DeleteObjects: 0.665100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017240 seconds.
-Begin MonoManager ReloadAssembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.67 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-- Completed reload, in  4.576 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4577ms)
-		BeginReloadAssembly (307ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (106ms)
-		EndReloadAssembly (4123ms)
-			LoadAssemblies (227ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (831ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (178ms)
-			SetupLoadedEditorAssemblies (2418ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (300ms)
-				ProcessInitializeOnLoadAttributes (1943ms)
-				ProcessInitializeOnLoadMethodAttributes (138ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (41ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.51 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6020 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 244.2 MB.
-System memory in use after: 244.2 MB.
-
-Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 6774.
-Total: 30.144100 ms (FindLiveObjects: 0.674100 ms CreateObjectMapping: 0.367800 ms MarkObjects: 27.974300 ms  DeleteObjects: 1.125600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018093 seconds.
-Begin MonoManager ReloadAssembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.85 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-- Completed reload, in  4.333 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4334ms)
-		BeginReloadAssembly (322ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (97ms)
-		EndReloadAssembly (3881ms)
-			LoadAssemblies (211ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (777ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (159ms)
-			SetupLoadedEditorAssemblies (2260ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (287ms)
-				ProcessInitializeOnLoadAttributes (1844ms)
-				ProcessInitializeOnLoadMethodAttributes (106ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 3.81 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6020 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 244.3 MB.
-System memory in use after: 244.2 MB.
-
-Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 6779.
-Total: 30.005200 ms (FindLiveObjects: 1.015600 ms CreateObjectMapping: 0.782700 ms MarkObjects: 27.457600 ms  DeleteObjects: 0.747400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017945 seconds.
-Begin MonoManager ReloadAssembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.93 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-- Completed reload, in  4.136 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4136ms)
-		BeginReloadAssembly (271ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (83ms)
-		EndReloadAssembly (3759ms)
-			LoadAssemblies (209ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (734ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (168ms)
-			SetupLoadedEditorAssemblies (2211ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (321ms)
-				ProcessInitializeOnLoadAttributes (1771ms)
-				ProcessInitializeOnLoadMethodAttributes (98ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.08 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6020 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 244.2 MB.
-System memory in use after: 244.3 MB.
-
-Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 6784.
-Total: 23.187800 ms (FindLiveObjects: 0.624300 ms CreateObjectMapping: 0.344800 ms MarkObjects: 21.543700 ms  DeleteObjects: 0.673700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.025239 seconds.
-Begin MonoManager ReloadAssembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Error: Could not load signature of UnityEditor.XR.ARKit.XcodeAssetCatalog:WriteAndAddToPBXProject due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.13 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl.dll
-Fallback handler could not load library C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Mono/lib/libdl
-- Completed reload, in  4.094 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4094ms)
-		BeginReloadAssembly (258ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (92ms)
-		EndReloadAssembly (3729ms)
-			LoadAssemblies (208ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (719ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (145ms)
-			SetupLoadedEditorAssemblies (2189ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (293ms)
-				ProcessInitializeOnLoadAttributes (1754ms)
-				ProcessInitializeOnLoadMethodAttributes (119ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.14 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6020 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 244.3 MB.
-System memory in use after: 244.3 MB.
-
-Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 6789.
-Total: 21.269900 ms (FindLiveObjects: 0.671100 ms CreateObjectMapping: 0.413000 ms MarkObjects: 19.522200 ms  DeleteObjects: 0.662500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
