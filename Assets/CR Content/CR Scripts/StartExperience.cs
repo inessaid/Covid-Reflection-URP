@@ -12,6 +12,8 @@ public class StartExperience : MonoBehaviour
     private int i = 0;
     private float  growFactor =0 ;
     public string buttonOption;
+    //public GameObject audioGB;
+    //public AudioSource howLong;
 
     public GameObject answerTextBody;
 
@@ -24,7 +26,8 @@ public class StartExperience : MonoBehaviour
         //TopLeftUI = GameObject.FindGameObjectsWithTag("TopLeftUI")[0];
         timeline = GameObject.Find("Timeline").GetComponent<Timeline>();
         answerTextBody = GameObject.Find("EditorLorem");
-
+        //audioGB = GameObject.Find("Audios");
+        //howLong = audioGB.transform.Find("How Long").gameObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -84,7 +87,9 @@ public class StartExperience : MonoBehaviour
         covid19Safe.gameObject.name = "Covid19Safe";
         covid19Safe.transform.GetChild(0).GetComponent<Text>().text = "Are Covid-19 vaccinations safe?";
         covid19Safe.transform.GetChild(1).GetComponent<Text>().text = "COVID-19 Vaccines are safe. Rigorous clinical testing, FDA review, and extensive tracking were conducted on the vaccines to ensure they are safe and effective. ";
-        Destroy(covid19Safe, 5);
+        covid19Safe.GetComponent<AudioSource>().clip = GameObject.Find("Covid 19 Safe").GetComponent<AudioSource>().clip;
+        covid19Safe.GetComponent<AudioSource>().Play();
+        Destroy(covid19Safe, 10);
     }
 
     private void AlreadyContracted()
@@ -95,7 +100,9 @@ public class StartExperience : MonoBehaviour
         alreadyContracted.gameObject.name = "Already Contracted";
         alreadyContracted.transform.GetChild(0).GetComponent<Text>().text = "Already Had Covid-19?";
         alreadyContracted.transform.GetChild(1).GetComponent<Text>().text = "Ever after recovering from COVID-19, a vaccination can help reduce the risk of contracting COVID-19 again, and reduce the severity if you do get sick.";
-        Destroy(alreadyContracted, 5);
+        alreadyContracted.GetComponent<AudioSource>().clip = GameObject.Find("Already Contracted").GetComponent<AudioSource>().clip;
+        alreadyContracted.GetComponent<AudioSource>().Play();
+        Destroy(alreadyContracted, 10);
     }
 
     private void VaccineContents()
@@ -107,7 +114,9 @@ public class StartExperience : MonoBehaviour
         vaccineContents.gameObject.name = "Vaccine Contents";
         vaccineContents.transform.GetChild(0).GetComponent<Text>().text = "What are contained in vaccines?";
         vaccineContents.transform.GetChild(1).GetComponent<Text>().text = "While vaccine contents vary by manufacturer, there are no eggs, gelatine, preservatives, metals, or microelectronics contained in any vaccine. No vaccine contains any live virus.";
-        Destroy(vaccineContents, 5);
+        vaccineContents.GetComponent<AudioSource>().clip = GameObject.Find("Vaccine Contents").GetComponent<AudioSource>().clip;
+        vaccineContents.GetComponent<AudioSource>().Play();
+        Destroy(vaccineContents, 10);
 
     }
 
@@ -122,7 +131,10 @@ public class StartExperience : MonoBehaviour
         howLong.gameObject.name = "How Long";
         howLong.transform.GetChild(0).GetComponent<Text>().text = "How long does protection last?";
         howLong.transform.GetChild(1).GetComponent<Text>().text = "The CDC recommends that a booster shot is obtained at least 5 months after receiving either a Pfizer or Moderna vaccination. ";
-        Destroy(howLong, 5);
+        //audios[6].Play();
+        howLong.GetComponent<AudioSource>().clip = GameObject.Find("How Long").GetComponent<AudioSource>().clip;
+        howLong.GetComponent<AudioSource>().Play();
+        Destroy(howLong, 10);
         
     }
 
