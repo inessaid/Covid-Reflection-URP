@@ -15,12 +15,13 @@ public class Timeline : MonoBehaviour
    // public Material lungWithCovidMat, lungWithPneumonia;
     public Text state;
     private float counter=0;
-    private bool counterTrigger, shieldTrigger, closeShieldTrigger;
-    public float speed;
+    private bool counterTrigger, shieldTrigger, closeShieldTrigger, AlphaTrigger;
+    public float speed, changeSpeed;
     private bool particleTrigger, pneumoniaTrigger;
     public AudioSource[] audios;
     private Color originalColor;
-    private float tempShieldVal, closeShieldVal;
+    private float tempShieldVal, closeShieldVal, tempAlphaValue;
+    
   
    // public Material lungMaterial;
 
@@ -45,6 +46,7 @@ public class Timeline : MonoBehaviour
         shieldTrigger = false;
         tempShieldVal = 1.2f;
         closeShieldVal = -0.2f;
+        tempAlphaValue = 1;
         
 
     }
@@ -84,6 +86,18 @@ public class Timeline : MonoBehaviour
 
 
         //}
+
+
+        if(AlphaTrigger)
+        {
+            if (tempAlphaValue > 0.3f)
+            {
+                tempAlphaValue -= changeSpeed * Time.deltaTime;
+                lungRenderer.material.SetFloat("_alpha", tempAlphaValue);
+            }
+        }
+
+
         if (shieldTrigger)
         {
             //float temp = Mathf.Lerp(-0.2f, 1.2f, Time.time * speed);
@@ -91,6 +105,7 @@ public class Timeline : MonoBehaviour
             //shieldRenderer.material.SetFloat("_disolve", temp);
             if (tempShieldVal > -0.2f)
             {
+
                 tempShieldVal -= speed * Time.deltaTime;
                 Debug.Log("Temp " + tempShieldVal);
                 shieldRenderer.material.SetFloat("_disolve", tempShieldVal);
@@ -180,7 +195,8 @@ public class Timeline : MonoBehaviour
         GameObject.Find("Germ Cloud(Clone)").SetActive(false);
 
         //make lungs transparent   
-        lungRenderer.material.SetFloat("_alpha", 0.3f);
+        // lungRenderer.material.SetFloat("_alpha", 0.3f);
+        AlphaTrigger = true;
 
         // Covid particle goes into lungs
         covidParticle.SetActive(true);
@@ -199,6 +215,7 @@ public class Timeline : MonoBehaviour
         humanRenderer.materials[2].SetColor("_edge_color", Color.yellow);
         covidParticle.SetActive(false);
         lungRenderer.material.SetFloat("_alpha", 1f);
+       
         // lungRenderer.material = lungWithCovidMat;
         counterTrigger = true;
         particleTrigger = true;
@@ -231,6 +248,7 @@ public class Timeline : MonoBehaviour
     }
     public void BenefitOfVaccination()
     {
+        respirator.SetActive(false);
         //state.SetText("Benefit Of Vaccination");
         state.text = "Benefit Of Vaccination";
         forceField.SetActive(true);
