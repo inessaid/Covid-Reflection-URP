@@ -121,6 +121,7 @@ public class Timeline : MonoBehaviour
 
     public void StartScreen()
     {
+        TurnOffUIOrbs();
         // humanRenderer.material.SetColor("_edge_color", originalColor);
         respirator.SetActive(false) ;
 
@@ -128,7 +129,7 @@ public class Timeline : MonoBehaviour
         var instantiatedButton =  Instantiate(sampleButton, prefabLocation, Quaternion.identity);
         instantiatedButton.gameObject.name = "Start";
 
-        state.gameObject.SetActive(true);
+        state.gameObject.SetActive(false);
         sliderGB.SetActive(false);
         timer.SetActive(false);
        
@@ -140,6 +141,7 @@ public class Timeline : MonoBehaviour
     {
         // Debug.Log("preCovid");
         // state.SetText("Pre Covid");
+        state.gameObject.SetActive(true);
         respirator.SetActive(false);
         state.text = "Pre Covid";
         audios[0].Play();
@@ -313,6 +315,30 @@ public class Timeline : MonoBehaviour
                 FreeForm();
                 break;
 
+        }
+
+    }
+
+    public void TurnOffUIOrbs()
+    {
+        if (GameObject.Find("right 0"))
+        { 
+        GameObject.Find("right 0").SetActive(false);
+        }
+                
+        if (GameObject.Find("right 1"))
+        { 
+        GameObject.Find("right 1").SetActive(false);
+        }        
+        
+        if (GameObject.Find("left 0"))
+        { 
+        GameObject.Find("left 0").SetActive(false);
+        }
+                
+        if (GameObject.Find("left 1"))
+        { 
+        GameObject.Find("left 1").SetActive(false);
         }
 
     }
