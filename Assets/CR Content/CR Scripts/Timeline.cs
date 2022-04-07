@@ -6,7 +6,7 @@ using TMPro;
 
 public class Timeline : MonoBehaviour
 {
-    public GameObject body, sampleButton, germCloud, covidParticle, lungs, forceField;
+    public GameObject body, sampleButton, germCloud, covidParticle, lungs, forceField, respirator;
     public Vector3 startButtonPosition = new Vector3(0.4f, 0.9f, 0f);
     public Vector3 germCloudPosition = new Vector3(0f, 0f, -2f);
     public GameObject sliderGB, logo, timer;
@@ -122,7 +122,8 @@ public class Timeline : MonoBehaviour
     public void StartScreen()
     {
         // humanRenderer.material.SetColor("_edge_color", originalColor);
-        
+        respirator.SetActive(false) ;
+
         var prefabLocation = body.transform.localPosition + startButtonPosition;
         var instantiatedButton =  Instantiate(sampleButton, prefabLocation, Quaternion.identity);
         instantiatedButton.gameObject.name = "Start";
@@ -132,13 +133,14 @@ public class Timeline : MonoBehaviour
         timer.SetActive(false);
        
         lungRenderer.material.SetFloat("_particle_trigger", 0f);
-        lungRenderer.material.SetFloat("_base_trigger", 0f);
+        lungRenderer.material.SetFloat("_base_trigger", 1f);
         lungRenderer.material.SetFloat("_pneumonia_trigger", 0f);
     } 
     public void PreCovid()
     {
-       // Debug.Log("preCovid");
-       // state.SetText("Pre Covid");
+        // Debug.Log("preCovid");
+        // state.SetText("Pre Covid");
+        respirator.SetActive(false);
         state.text = "Pre Covid";
         audios[0].Play();
         timer.SetActive(true);
@@ -218,6 +220,7 @@ public class Timeline : MonoBehaviour
     {
         //state.SetText("Lung Failure");
         state.text = "Lung Failure";
+        respirator.SetActive(true);
         humanRenderer.materials[0].SetColor("_edge_color", Color.red);
         humanRenderer.materials[1].SetColor("_edge_color", Color.red);
         humanRenderer.materials[2].SetColor("_edge_color", Color.red);
@@ -242,6 +245,9 @@ public class Timeline : MonoBehaviour
         humanRenderer.materials[1].SetColor("_edge_color", originalColor);
         humanRenderer.materials[2].SetColor("_edge_color", originalColor);
         audios[6].Play();
+
+        lungRenderer.material.SetFloat("_base_trigger", 1f);
+        lungRenderer.material.SetFloat("_pneumonia_trigger", 0f);
         // Debug.Log("Benefit Of Vaccination");
     }
     public void FreeForm()
@@ -310,6 +316,7 @@ public class Timeline : MonoBehaviour
         }
 
     }
+
 
 
 
