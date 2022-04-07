@@ -777,7 +777,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!21 &283829023
+--- !u!21 &280708443
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -814,6 +814,8 @@ Material:
     (Instance) (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
     (Instance) (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
     (Instance) (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
+    (Instance) (Instance) (Instance) (Instance) (Instance) (Instance) (Instance)
+    (Instance) (Instance)
   m_Shader: {fileID: -6465566751694194690, guid: e63610d8422d9c849afc3597f2641db7, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -1432,7 +1434,7 @@ PrefabInstance:
     - target: {fileID: 137488274886211070, guid: 5ef907a77ab8c47ea87953b9b75a11b7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 283829023}
+      objectReference: {fileID: 280708443}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ef907a77ab8c47ea87953b9b75a11b7, type: 3}
 --- !u!1001 &610316708
@@ -2775,7 +2777,7 @@ MonoBehaviour:
   shieldRenderer: {fileID: 1309862688}
   state: {fileID: 676473653}
   speed: 0.7
-  changeSpeed: 0.09
+  changeSpeed: 0.15
   audios:
   - {fileID: 207707990}
   - {fileID: 2089956773}

@@ -15,12 +15,12 @@ public class Timeline : MonoBehaviour
    // public Material lungWithCovidMat, lungWithPneumonia;
     public Text state;
     private float counter=0;
-    private bool counterTrigger, shieldTrigger, closeShieldTrigger, AlphaTrigger , removeAlphaTrigger;
+    private bool counterTrigger, shieldTrigger, closeShieldTrigger, AlphaTrigger , removeAlphaTrigger, removeParticleTrigger;
     public float speed, changeSpeed;
     private bool particleTrigger, pneumoniaTrigger;
     public AudioSource[] audios;
     private Color originalColor;
-    private float tempShieldVal, closeShieldVal, tempAlphaValue;
+    private float tempShieldVal, closeShieldVal, tempAlphaValue, tempParticleValue, tempPneuValue;
     
   
    // public Material lungMaterial;
@@ -38,6 +38,7 @@ public class Timeline : MonoBehaviour
     {
         //sliderGB = GameObject.FindGameObjectWithTag("Slider");
         counter = 0;
+        removeParticleTrigger = false;
         removeAlphaTrigger = false;
         counterTrigger = false;
         particleTrigger = false;
@@ -47,46 +48,57 @@ public class Timeline : MonoBehaviour
         tempShieldVal = 1.2f;
         closeShieldVal = -0.2f;
         tempAlphaValue = 1;
-    
+        tempParticleValue = 0;
+        tempPneuValue = 0;
         
+        
+
+
+
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log(counter);
+        if(pneumoniaTrigger)
+        {
 
-        //if (counterTrigger && particleTrigger)
-        //{
-        //    counter=Mathf.Lerp(0, 1, Time.time * speed);
+            if (tempPneuValue < 1f)
+            {
+                tempPneuValue += changeSpeed * Time.deltaTime;
+                lungRenderer.material.SetFloat("_pneumonia_trigger", tempPneuValue);
+            }
 
-        //    lungRenderer.material.SetFloat("_particle_trigger", counter);
+        }
 
-        //    // lungRenderer.material.SetFloat("_pneumonia_trigger", counter);
+        // remove particle
+        if (removeParticleTrigger)
+        {
+            if (tempParticleValue > 0f)
+            {
+                tempParticleValue -= changeSpeed * Time.deltaTime;
+                lungRenderer.material.SetFloat("_particle_trigger", tempParticleValue);
+            }
+            else
+            {
+                removeParticleTrigger = false;
+            }
+        }
 
-
-        //}
-
-        //if (counterTrigger && pneumoniaTrigger)
-        //{
-        //    counter = Mathf.Lerp(0, 1, Time.time * speed);
-
-        //    lungRenderer.material.SetFloat("_pneumonia_trigger", counter);
-
-
-        //}
-
-        //if (counter > 0.98)
-        //{
-        //    counterTrigger = false;
-        //    pneumoniaTrigger = false;
-        //    particleTrigger = false;
-        //    counter = 0;
-
-
-
-        //}
+        // add particle
+        if (particleTrigger)
+        {
+            if (tempParticleValue < 1f)
+            {
+                tempParticleValue += changeSpeed * Time.deltaTime;
+                lungRenderer.material.SetFloat("_particle_trigger", tempParticleValue);
+            }
+            else
+            {
+                particleTrigger = false;
+            }
+        }
 
         // remove alpha
         if (removeAlphaTrigger)
@@ -240,7 +252,7 @@ public class Timeline : MonoBehaviour
         // lungRenderer.material = lungWithCovidMat;
         counterTrigger = true;
         particleTrigger = true;
-        lungRenderer.material.SetFloat("_particle_trigger", 1f);
+       // lungRenderer.material.SetFloat("_particle_trigger", 1f);
         lungRenderer.material.SetFloat("_base_trigger", 0f);
         lungRenderer.material.SetFloat("_pneumonia_trigger", 0f);
     }
@@ -252,9 +264,11 @@ public class Timeline : MonoBehaviour
         audios[4].Play();
         // lungRenderer.material = lungWithPneumonia;
         //counterTrigger = true;
-        lungRenderer.material.SetFloat("_particle_trigger", 0f);
+        //lungRenderer.material.SetFloat("_particle_trigger", 0f);
+        removeParticleTrigger = true;
         lungRenderer.material.SetFloat("_base_trigger", 0f);
-        lungRenderer.material.SetFloat("_pneumonia_trigger", 1f);
+        pneumoniaTrigger = true;
+        //lungRenderer.material.SetFloat("_pneumonia_trigger", 1f);
     }
     public void LungFailure()
     {
