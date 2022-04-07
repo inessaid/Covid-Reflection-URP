@@ -15,7 +15,7 @@ public class Timeline : MonoBehaviour
    // public Material lungWithCovidMat, lungWithPneumonia;
     public Text state;
     private float counter=0;
-    private bool counterTrigger, shieldTrigger, closeShieldTrigger, AlphaTrigger;
+    private bool counterTrigger, shieldTrigger, closeShieldTrigger, AlphaTrigger , removeAlphaTrigger;
     public float speed, changeSpeed;
     private bool particleTrigger, pneumoniaTrigger;
     public AudioSource[] audios;
@@ -38,7 +38,7 @@ public class Timeline : MonoBehaviour
     {
         //sliderGB = GameObject.FindGameObjectWithTag("Slider");
         counter = 0;
-       
+        removeAlphaTrigger = false;
         counterTrigger = false;
         particleTrigger = false;
         pneumoniaTrigger = false;
@@ -47,6 +47,7 @@ public class Timeline : MonoBehaviour
         tempShieldVal = 1.2f;
         closeShieldVal = -0.2f;
         tempAlphaValue = 1;
+    
         
 
     }
@@ -59,7 +60,7 @@ public class Timeline : MonoBehaviour
         //if (counterTrigger && particleTrigger)
         //{
         //    counter=Mathf.Lerp(0, 1, Time.time * speed);
-             
+
         //    lungRenderer.material.SetFloat("_particle_trigger", counter);
 
         //    // lungRenderer.material.SetFloat("_pneumonia_trigger", counter);
@@ -87,13 +88,32 @@ public class Timeline : MonoBehaviour
 
         //}
 
+        // remove alpha
+        if (removeAlphaTrigger)
+        {
+            if (tempAlphaValue < 1f)
+            {
+                tempAlphaValue += changeSpeed * Time.deltaTime;
+                lungRenderer.material.SetFloat("_alpha", tempAlphaValue);
+            }
+            else
+            {
+                AlphaTrigger = false;
+            }
+        }
 
-        if(AlphaTrigger)
+
+        // add alpha
+        if (AlphaTrigger)
         {
             if (tempAlphaValue > 0.3f)
             {
                 tempAlphaValue -= changeSpeed * Time.deltaTime;
                 lungRenderer.material.SetFloat("_alpha", tempAlphaValue);
+            }
+            else
+            {
+                AlphaTrigger = false;
             }
         }
 
@@ -213,8 +233,9 @@ public class Timeline : MonoBehaviour
         humanRenderer.materials[0].SetColor("_edge_color", Color.yellow);
         humanRenderer.materials[1].SetColor("_edge_color", Color.yellow);
         humanRenderer.materials[2].SetColor("_edge_color", Color.yellow);
+        removeAlphaTrigger = true;
         covidParticle.SetActive(false);
-        lungRenderer.material.SetFloat("_alpha", 1f);
+        //lungRenderer.material.SetFloat("_alpha", 1f);
        
         // lungRenderer.material = lungWithCovidMat;
         counterTrigger = true;
