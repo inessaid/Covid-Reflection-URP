@@ -11,15 +11,16 @@ public class Timeline : MonoBehaviour
     public Vector3 germCloudPosition = new Vector3(0f, 0f, -2f);
     public GameObject sliderGB, logo, timer;
     public Slider slider;
-    [SerializeField] private Renderer lungRenderer, humanRenderer;
+    [SerializeField] private Renderer lungRenderer, humanRenderer, shieldRenderer;
    // public Material lungWithCovidMat, lungWithPneumonia;
     public Text state;
     private float counter=0;
-    private bool counterTrigger;
+    private bool counterTrigger, shieldTrigger, closeShieldTrigger;
     public float speed;
     private bool particleTrigger, pneumoniaTrigger;
     public AudioSource[] audios;
     private Color originalColor;
+    private float tempShieldVal, closeShieldVal;
   
    // public Material lungMaterial;
 
@@ -41,6 +42,9 @@ public class Timeline : MonoBehaviour
         particleTrigger = false;
         pneumoniaTrigger = false;
         originalColor = humanRenderer.material.GetColor("_edge_color");
+        shieldTrigger = false;
+        tempShieldVal = 1.2f;
+        closeShieldVal = -0.2f;
         
 
     }
@@ -78,9 +82,41 @@ public class Timeline : MonoBehaviour
         //    counter = 0;
 
 
-        //}
 
+        //}
+        if (shieldTrigger)
+        {
+            //float temp = Mathf.Lerp(-0.2f, 1.2f, Time.time * speed);
+            //Debug.Log("Temp " + temp);
+            //shieldRenderer.material.SetFloat("_disolve", temp);
+            if (tempShieldVal > -0.2f)
+            {
+                tempShieldVal -= speed * Time.deltaTime;
+                Debug.Log("Temp " + tempShieldVal);
+                shieldRenderer.material.SetFloat("_disolve", tempShieldVal);
+            }
+            else
+            {
+                shieldTrigger = false;
+            }
+
+        }
         
+        if (closeShieldTrigger)
+        {
+            //float temp = Mathf.Lerp(-0.2f, 1.2f, Time.time * speed);
+            //Debug.Log("Temp " + temp);
+            //shieldRenderer.material.SetFloat("_disolve", temp);
+            if (closeShieldVal < 2.2f)
+            {
+                closeShieldVal += speed * Time.deltaTime;
+                Debug.Log("Temp " + closeShieldVal);
+                shieldRenderer.material.SetFloat("_disolve", closeShieldVal);
+            }
+
+        }
+
+
     }
 
     public void StartScreen()
@@ -193,6 +229,15 @@ public class Timeline : MonoBehaviour
         //state.SetText("Benefit Of Vaccination");
         state.text = "Benefit Of Vaccination";
         forceField.SetActive(true);
+
+        shieldTrigger = true;
+        //float temp = -0.2f;
+        //while(temp < 1.2f)
+        //{
+        //    shieldRenderer.material.SetFloat("_disolve", temp);
+        //    temp = temp + 0.0001f;
+        //}
+        
         humanRenderer.materials[0].SetColor("_edge_color", originalColor);
         humanRenderer.materials[1].SetColor("_edge_color", originalColor);
         humanRenderer.materials[2].SetColor("_edge_color", originalColor);
@@ -201,7 +246,8 @@ public class Timeline : MonoBehaviour
     }
     public void FreeForm()
     {
-        forceField.SetActive(false);
+        //forceField.SetActive(false);
+        closeShieldTrigger = true;
         //state.SetText("Free Form");
         state.text = "Free Form";
         // Debug.Log("Free Form");
