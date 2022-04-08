@@ -257,13 +257,8 @@ public class Timeline : MonoBehaviour
         state.text = "Covid Sets In";
         audios[3].Play();
         blueToYelowTrigger = true;
-        //humanRenderer.materials[0].SetColor("_edge_color", Color.yellow);
-        //humanRenderer.materials[1].SetColor("_edge_color", Color.yellow);
-        //humanRenderer.materials[2].SetColor("_edge_color", Color.yellow);
         removeAlphaTrigger = true;
         covidParticle.SetActive(false);
-        //lungRenderer.material.SetFloat("_alpha", 1f);
-        // lungRenderer.material = lungWithCovidMat;
         counterTrigger = true;
         particleTrigger = true;
         // lungRenderer.material.SetFloat("_particle_trigger", 1f);
@@ -459,19 +454,20 @@ public class Timeline : MonoBehaviour
     {
         if (yellowToRedTrigger)
         {
-            if (tr < 1)
-            { // while t below the end limit...
-              // increment it at the desired rate every update:
-                tr += Time.deltaTime / duration;
-            }
-            else
-            {
-                yellowToRedTrigger = false;
+            //if (tr < 1)
+            //{ // while t below the end limit...
+            //  // increment it at the desired rate every update:
+            //    tr += Time.deltaTime / duration;
+            //}
+            //else
+            //{
+            //    yellowToRedTrigger = false;
 
 
-            }
+            //}
             Color lerpedColor = Color.white;
-            lerpedColor = Color.Lerp(Color.yellow, Color.red, tr);
+            // lerpedColor = Color.Lerp(Color.yellow, Color.red, tr);
+            lerpedColor = Color.Lerp(Color.yellow, Color.red, Mathf.PingPong(Time.time, 1));
 
             humanRenderer.materials[0].SetColor("_edge_color", lerpedColor);
             humanRenderer.materials[1].SetColor("_edge_color", lerpedColor);
@@ -502,7 +498,7 @@ public class Timeline : MonoBehaviour
         t = 0;
         tr = 0;
         tb = 0;
-        tempShieldVal = 1.2f;
+        tempShieldVal = 1f;
         closeShieldVal = -0.2f;
         tempAlphaValue = 1;
         tempParticleValue = 0;
