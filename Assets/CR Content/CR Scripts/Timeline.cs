@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class Timeline : MonoBehaviour
 {
@@ -12,10 +13,10 @@ public class Timeline : MonoBehaviour
     public GameObject sliderGB, logo, timer;
     public Slider slider;
     [SerializeField] private Renderer lungRenderer, humanRenderer, shieldRenderer;
-   // public Material lungWithCovidMat, lungWithPneumonia;
+    // public Material lungWithCovidMat, lungWithPneumonia;
     public Text state;
-    private float counter=0;
-    private bool counterTrigger, shieldTrigger, closeShieldTrigger, AlphaTrigger , removeAlphaTrigger, removeParticleTrigger, blueToYelowTrigger;
+    private float counter = 0;
+    private bool counterTrigger, shieldTrigger, closeShieldTrigger, AlphaTrigger, removeAlphaTrigger, removeParticleTrigger, blueToYelowTrigger, yellowToRedTrigger, redToBlueTrigger;
     public float speed, changeSpeed;
     private bool particleTrigger, pneumoniaTrigger;
     public AudioSource[] audios;
@@ -23,11 +24,11 @@ public class Timeline : MonoBehaviour
     private float tempShieldVal, closeShieldVal, tempAlphaValue, tempParticleValue, tempPneuValue;
     private Color red, yellow, blue;
     public float intensity = 0.2f;
-    private float t = 0;
+    private float t = 0, tr = 0 , tb=0;
     public float duration;
-    
-  
-   // public Material lungMaterial;
+
+
+    // public Material lungMaterial;
 
 
 
@@ -35,30 +36,26 @@ public class Timeline : MonoBehaviour
     private void OnEnable()
     {
         StartScreen();
-      
+
     }
     // Start is called before the first frame update
     void Start()
     {
         //sliderGB = GameObject.FindGameObjectWithTag("Slider");
         counter = 0;
-        blueToYelowTrigger = false;
-        removeParticleTrigger = false;
-        removeAlphaTrigger = false;
-        counterTrigger = false;
-        particleTrigger = false;
-        pneumoniaTrigger = false;
+
+        InitializeTriggers();
         originalColor = humanRenderer.material.GetColor("_edge_color");
-        shieldTrigger = false;
+
         tempShieldVal = 1.2f;
         closeShieldVal = -0.2f;
         tempAlphaValue = 1;
         tempParticleValue = 0;
         tempPneuValue = 0;
-        
+
 
         red = new Color(255 * intensity, 0 * intensity, 0 * intensity);
-        
+
 
 
 
@@ -68,10 +65,13 @@ public class Timeline : MonoBehaviour
 
     }
 
+
+
     // Update is called once per frame
     void Update()
     {
         BlueToYellow();
+        YellowToRed();
 
 
         if (pneumoniaTrigger)
@@ -161,7 +161,7 @@ public class Timeline : MonoBehaviour
             }
 
         }
-        
+
         if (closeShieldTrigger)
         {
             //float temp = Mathf.Lerp(-0.2f, 1.2f, Time.time * speed);
@@ -179,26 +179,30 @@ public class Timeline : MonoBehaviour
 
     }
 
+
+
     public void StartScreen()
     {
         TurnOffUIOrbs();
+        InitializeTriggers();
         // humanRenderer.material.SetColor("_edge_color", originalColor);
-        respirator.SetActive(false) ;
+        respirator.SetActive(false);
 
         var prefabLocation = body.transform.localPosition + startButtonPosition;
-        var instantiatedButton =  Instantiate(sampleButton, prefabLocation, Quaternion.identity);
+        var instantiatedButton = Instantiate(sampleButton, prefabLocation, Quaternion.identity);
         instantiatedButton.gameObject.name = "Start";
 
         state.gameObject.SetActive(false);
         sliderGB.SetActive(false);
         timer.SetActive(false);
-       
+
         lungRenderer.material.SetFloat("_particle_trigger", 0f);
         lungRenderer.material.SetFloat("_base_trigger", 1f);
         lungRenderer.material.SetFloat("_pneumonia_trigger", 0f);
-    } 
+    }
     public void PreCovid()
     {
+
         // Debug.Log("preCovid");
         // state.SetText("Pre Covid");
         state.gameObject.SetActive(true);
@@ -216,7 +220,7 @@ public class Timeline : MonoBehaviour
         sliderGB.SetActive(true);
         GameObject.Find("Start").SetActive(false);
         //GameObject.FindGameObjectWithTag("Logo").SetActive(false);
-        
+
     }
     public void FirstExposure()
     {
@@ -262,11 +266,11 @@ public class Timeline : MonoBehaviour
         removeAlphaTrigger = true;
         covidParticle.SetActive(false);
         //lungRenderer.material.SetFloat("_alpha", 1f);
-       
+
         // lungRenderer.material = lungWithCovidMat;
         counterTrigger = true;
         particleTrigger = true;
-       // lungRenderer.material.SetFloat("_particle_trigger", 1f);
+        // lungRenderer.material.SetFloat("_particle_trigger", 1f);
         lungRenderer.material.SetFloat("_base_trigger", 0f);
         lungRenderer.material.SetFloat("_pneumonia_trigger", 0f);
     }
@@ -289,10 +293,11 @@ public class Timeline : MonoBehaviour
         //state.SetText("Lung Failure");
         state.text = "Lung Failure";
         respirator.SetActive(true);
-        
-        humanRenderer.materials[0].SetColor("_edge_color", red);
-        humanRenderer.materials[1].SetColor("_edge_color", red);
-        humanRenderer.materials[2].SetColor("_edge_color", red);
+
+        yellowToRedTrigger = true;
+        //humanRenderer.materials[0].SetColor("_edge_color", red);
+        //humanRenderer.materials[1].SetColor("_edge_color", red);
+        //humanRenderer.materials[2].SetColor("_edge_color", red);
         audios[5].Play();
         // Debug.Log("Lung Failure");
     }
@@ -310,7 +315,7 @@ public class Timeline : MonoBehaviour
         //    shieldRenderer.material.SetFloat("_disolve", temp);
         //    temp = temp + 0.0001f;
         //}
-        
+
         humanRenderer.materials[0].SetColor("_edge_color", originalColor);
         humanRenderer.materials[1].SetColor("_edge_color", originalColor);
         humanRenderer.materials[2].SetColor("_edge_color", originalColor);
@@ -330,14 +335,14 @@ public class Timeline : MonoBehaviour
         for (int i = 0; i < 2; i++)
         {
             // right Button
-            var prefabLocationRight = body.transform.localPosition + new Vector3(0.5f, i-0.1f, 0f);
+            var prefabLocationRight = body.transform.localPosition + new Vector3(0.5f, i - 0.1f, 0f);
             var instantiatedButtonRight = Instantiate(sampleButton, prefabLocationRight, Quaternion.identity);
             instantiatedButtonRight.gameObject.name = "right" + " " + i.ToString();
-            
+
 
             // Left Button
 
-            var prefabLocationLeft = body.transform.localPosition + new Vector3(-0.5f, i-0.1f, 0f);
+            var prefabLocationLeft = body.transform.localPosition + new Vector3(-0.5f, i - 0.1f, 0f);
             var instantiatedButtonLeft = Instantiate(sampleButton, prefabLocationLeft, Quaternion.identity);
             instantiatedButtonLeft.gameObject.name = "left" + " " + i.ToString();
 
@@ -346,14 +351,14 @@ public class Timeline : MonoBehaviour
     }
     public void EndScreen()
     {
-       // Debug.Log("End of Screen");
+        // Debug.Log("End of Screen");
     }
 
     public void TimelineController()
     {
-      //  Debug.Log("Value changed to " + slider.value);
-        
-        switch(slider.value)
+        //  Debug.Log("Value changed to " + slider.value);
+
+        switch (slider.value)
         {
             case 1:
                 PreCovid();
@@ -390,23 +395,23 @@ public class Timeline : MonoBehaviour
     public void TurnOffUIOrbs()
     {
         if (GameObject.Find("right 0"))
-        { 
-        GameObject.Find("right 0").SetActive(false);
+        {
+            GameObject.Find("right 0").SetActive(false);
         }
-                
+
         if (GameObject.Find("right 1"))
-        { 
-        GameObject.Find("right 1").SetActive(false);
-        }        
-        
-        if (GameObject.Find("left 0"))
-        { 
-        GameObject.Find("left 0").SetActive(false);
+        {
+            GameObject.Find("right 1").SetActive(false);
         }
-                
+
+        if (GameObject.Find("left 0"))
+        {
+            GameObject.Find("left 0").SetActive(false);
+        }
+
         if (GameObject.Find("left 1"))
-        { 
-        GameObject.Find("left 1").SetActive(false);
+        {
+            GameObject.Find("left 1").SetActive(false);
         }
 
     }
@@ -422,8 +427,9 @@ public class Timeline : MonoBehaviour
             }
             else
             {
-                t = 0;
                 blueToYelowTrigger = false;
+
+
             }
             Color lerpedColor = Color.white;
             lerpedColor = Color.Lerp(originalColor, Color.yellow, t);
@@ -435,6 +441,75 @@ public class Timeline : MonoBehaviour
         }
     }
 
+
+    public void RedToBlue()
+    {
+        if (redToBlueTrigger)
+        {
+            if (tb < 1)
+            { // while t below the end limit...
+              // increment it at the desired rate every update:
+                tb += Time.deltaTime / duration;
+            }
+            else
+            {
+                blueToYelowTrigger = false;
+
+
+            }
+            Color lerpedColor = Color.white;
+            lerpedColor = Color.Lerp( Color.yellow,originalColor, tb);
+
+            humanRenderer.materials[0].SetColor("_edge_color", lerpedColor);
+            humanRenderer.materials[1].SetColor("_edge_color", lerpedColor);
+            humanRenderer.materials[2].SetColor("_edge_color", lerpedColor);
+
+        }
+    }
+    private void YellowToRed()
+    {
+        if (yellowToRedTrigger)
+        {
+            if (tr < 1)
+            { // while t below the end limit...
+              // increment it at the desired rate every update:
+                tr += Time.deltaTime / duration;
+            }
+            else
+            {
+                yellowToRedTrigger = false;
+
+
+            }
+            Color lerpedColor = Color.white;
+            lerpedColor = Color.Lerp(Color.yellow, Color.red, tr);
+
+            humanRenderer.materials[0].SetColor("_edge_color", lerpedColor);
+            humanRenderer.materials[1].SetColor("_edge_color", lerpedColor);
+            humanRenderer.materials[2].SetColor("_edge_color", lerpedColor);
+
+        }
+    }
+    private void FlashingRed()
+    {
+        throw new NotImplementedException();
+    }
+
+    private void InitializeTriggers()
+    {
+        redToBlueTrigger = false;
+        yellowToRedTrigger = false;
+        blueToYelowTrigger = false;
+        removeParticleTrigger = false;
+        removeAlphaTrigger = false;
+        counterTrigger = false;
+        particleTrigger = false;
+        pneumoniaTrigger = false;
+        shieldTrigger = false;
+        t = 0;
+        tr = 0;
+        Tb = 0;
+    }
 
 
 
