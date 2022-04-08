@@ -15,12 +15,16 @@ public class Timeline : MonoBehaviour
    // public Material lungWithCovidMat, lungWithPneumonia;
     public Text state;
     private float counter=0;
-    private bool counterTrigger, shieldTrigger, closeShieldTrigger, AlphaTrigger , removeAlphaTrigger, removeParticleTrigger;
+    private bool counterTrigger, shieldTrigger, closeShieldTrigger, AlphaTrigger , removeAlphaTrigger, removeParticleTrigger, blueToYelowTrigger;
     public float speed, changeSpeed;
     private bool particleTrigger, pneumoniaTrigger;
     public AudioSource[] audios;
     private Color originalColor;
     private float tempShieldVal, closeShieldVal, tempAlphaValue, tempParticleValue, tempPneuValue;
+    private Color red, yellow, blue;
+    public float intensity = 0.2f;
+    private float t = 0;
+    public float duration;
     
   
    // public Material lungMaterial;
@@ -38,6 +42,7 @@ public class Timeline : MonoBehaviour
     {
         //sliderGB = GameObject.FindGameObjectWithTag("Slider");
         counter = 0;
+        blueToYelowTrigger = false;
         removeParticleTrigger = false;
         removeAlphaTrigger = false;
         counterTrigger = false;
@@ -51,7 +56,12 @@ public class Timeline : MonoBehaviour
         tempParticleValue = 0;
         tempPneuValue = 0;
         
+
+        red = new Color(255 * intensity, 0 * intensity, 0 * intensity);
         
+
+
+
 
 
 
@@ -61,7 +71,10 @@ public class Timeline : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(pneumoniaTrigger)
+        BlueToYellow();
+
+
+        if (pneumoniaTrigger)
         {
 
             if (tempPneuValue < 1f)
@@ -242,9 +255,10 @@ public class Timeline : MonoBehaviour
         //state.SetText("Covid Sets In");
         state.text = "Covid Sets In";
         audios[3].Play();
-        humanRenderer.materials[0].SetColor("_edge_color", Color.yellow);
-        humanRenderer.materials[1].SetColor("_edge_color", Color.yellow);
-        humanRenderer.materials[2].SetColor("_edge_color", Color.yellow);
+        blueToYelowTrigger = true;
+        //humanRenderer.materials[0].SetColor("_edge_color", Color.yellow);
+        //humanRenderer.materials[1].SetColor("_edge_color", Color.yellow);
+        //humanRenderer.materials[2].SetColor("_edge_color", Color.yellow);
         removeAlphaTrigger = true;
         covidParticle.SetActive(false);
         //lungRenderer.material.SetFloat("_alpha", 1f);
@@ -275,9 +289,10 @@ public class Timeline : MonoBehaviour
         //state.SetText("Lung Failure");
         state.text = "Lung Failure";
         respirator.SetActive(true);
-        humanRenderer.materials[0].SetColor("_edge_color", Color.red);
-        humanRenderer.materials[1].SetColor("_edge_color", Color.red);
-        humanRenderer.materials[2].SetColor("_edge_color", Color.red);
+        
+        humanRenderer.materials[0].SetColor("_edge_color", red);
+        humanRenderer.materials[1].SetColor("_edge_color", red);
+        humanRenderer.materials[2].SetColor("_edge_color", red);
         audios[5].Play();
         // Debug.Log("Lung Failure");
     }
@@ -394,6 +409,30 @@ public class Timeline : MonoBehaviour
         GameObject.Find("left 1").SetActive(false);
         }
 
+    }
+
+    public void BlueToYellow()
+    {
+        if (blueToYelowTrigger)
+        {
+            if (t < 1)
+            { // while t below the end limit...
+              // increment it at the desired rate every update:
+                t += Time.deltaTime / duration;
+            }
+            else
+            {
+                t = 0;
+                blueToYelowTrigger = false;
+            }
+            Color lerpedColor = Color.white;
+            lerpedColor = Color.Lerp(originalColor, Color.yellow, t);
+
+            humanRenderer.materials[0].SetColor("_edge_color", lerpedColor);
+            humanRenderer.materials[1].SetColor("_edge_color", lerpedColor);
+            humanRenderer.materials[2].SetColor("_edge_color", lerpedColor);
+
+        }
     }
 
 
