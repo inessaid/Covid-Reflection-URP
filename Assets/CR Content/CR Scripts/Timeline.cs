@@ -59,10 +59,6 @@ public class Timeline : MonoBehaviour
 
 
 
-
-
-
-
     }
 
 
@@ -72,6 +68,7 @@ public class Timeline : MonoBehaviour
     {
         BlueToYellow();
         YellowToRed();
+        RedToBlue();
 
 
         if (pneumoniaTrigger)
@@ -309,16 +306,9 @@ public class Timeline : MonoBehaviour
         forceField.SetActive(true);
 
         shieldTrigger = true;
-        //float temp = -0.2f;
-        //while(temp < 1.2f)
-        //{
-        //    shieldRenderer.material.SetFloat("_disolve", temp);
-        //    temp = temp + 0.0001f;
-        //}
 
-        humanRenderer.materials[0].SetColor("_edge_color", originalColor);
-        humanRenderer.materials[1].SetColor("_edge_color", originalColor);
-        humanRenderer.materials[2].SetColor("_edge_color", originalColor);
+
+        redToBlueTrigger = true;
         audios[6].Play();
 
         lungRenderer.material.SetFloat("_base_trigger", 1f);
@@ -458,7 +448,7 @@ public class Timeline : MonoBehaviour
 
             }
             Color lerpedColor = Color.white;
-            lerpedColor = Color.Lerp( Color.yellow,originalColor, tb);
+            lerpedColor = Color.Lerp( Color.Red,originalColor, tb);
 
             humanRenderer.materials[0].SetColor("_edge_color", lerpedColor);
             humanRenderer.materials[1].SetColor("_edge_color", lerpedColor);
@@ -508,7 +498,7 @@ public class Timeline : MonoBehaviour
         shieldTrigger = false;
         t = 0;
         tr = 0;
-        Tb = 0;
+        tb = 0;
     }
 
 
