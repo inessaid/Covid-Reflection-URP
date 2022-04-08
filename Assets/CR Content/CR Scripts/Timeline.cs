@@ -45,13 +45,10 @@ public class Timeline : MonoBehaviour
         counter = 0;
 
         InitializeTriggers();
+        InitializeTempValues();
         originalColor = humanRenderer.material.GetColor("_edge_color");
 
-        tempShieldVal = 1.2f;
-        closeShieldVal = -0.2f;
-        tempAlphaValue = 1;
-        tempParticleValue = 0;
-        tempPneuValue = 0;
+        
 
 
         red = new Color(255 * intensity, 0 * intensity, 0 * intensity);
@@ -60,6 +57,8 @@ public class Timeline : MonoBehaviour
 
 
     }
+
+   
 
 
 
@@ -182,6 +181,7 @@ public class Timeline : MonoBehaviour
     {
         TurnOffUIOrbs();
         InitializeTriggers();
+        InitializeTempValues();
         // humanRenderer.material.SetColor("_edge_color", originalColor);
         respirator.SetActive(false);
 
@@ -263,7 +263,6 @@ public class Timeline : MonoBehaviour
         removeAlphaTrigger = true;
         covidParticle.SetActive(false);
         //lungRenderer.material.SetFloat("_alpha", 1f);
-
         // lungRenderer.material = lungWithCovidMat;
         counterTrigger = true;
         particleTrigger = true;
@@ -448,7 +447,7 @@ public class Timeline : MonoBehaviour
 
             }
             Color lerpedColor = Color.white;
-            lerpedColor = Color.Lerp( Color.Red,originalColor, tb);
+            lerpedColor = Color.Lerp( Color.red ,originalColor, tb);
 
             humanRenderer.materials[0].SetColor("_edge_color", lerpedColor);
             humanRenderer.materials[1].SetColor("_edge_color", lerpedColor);
@@ -496,9 +495,18 @@ public class Timeline : MonoBehaviour
         particleTrigger = false;
         pneumoniaTrigger = false;
         shieldTrigger = false;
+
+    }
+    private void InitializeTempValues()
+    {
         t = 0;
         tr = 0;
         tb = 0;
+        tempShieldVal = 1.2f;
+        closeShieldVal = -0.2f;
+        tempAlphaValue = 1;
+        tempParticleValue = 0;
+        tempPneuValue = 0;
     }
 
 
