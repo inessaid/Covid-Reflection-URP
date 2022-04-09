@@ -498,7 +498,7 @@ public class Timeline : MonoBehaviour
         t = 0;
         tr = 0;
         tb = 0;
-        tempShieldVal = 1f;
+        tempShieldVal = 0.9f;
         closeShieldVal = -0.2f;
         tempAlphaValue = 1;
         tempParticleValue = 0;

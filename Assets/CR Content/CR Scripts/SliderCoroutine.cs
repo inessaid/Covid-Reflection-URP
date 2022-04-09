@@ -33,7 +33,7 @@ public class SliderCoroutine : MonoBehaviour
         this.GetComponent<Slider>().value = 6;
         yield return new WaitForSeconds(waitTime + waitTime);
         this.GetComponent<Slider>().value = 7;
-        yield return new WaitForSeconds(waitTime );
+        yield return new WaitForSeconds(waitTime + waitTime );
         this.GetComponent<Slider>().value = 8;
 
     }
