@@ -88,6 +88,9 @@ public class StartExperience : MonoBehaviour
         covid19Safe.transform.GetChild(0).GetComponent<Text>().text = "Are Covid-19 vaccinations safe?";
         covid19Safe.transform.GetChild(1).GetComponent<Text>().text = "COVID-19 Vaccines are safe. Rigorous clinical testing, FDA review, and extensive tracking were conducted on the vaccines to ensure they are safe and effective. ";
         covid19Safe.GetComponent<AudioSource>().clip = GameObject.Find("Covid 19 Safe").GetComponent<AudioSource>().clip;
+        GameObject.Find("How Long").GetComponent<AudioSource>().Stop();
+        GameObject.Find("Vaccine Contents").GetComponent<AudioSource>().Stop();
+        GameObject.Find("Already Contracted").GetComponent<AudioSource>().Stop();
         covid19Safe.GetComponent<AudioSource>().Play();
         Destroy(covid19Safe, 10);
     }
@@ -101,6 +104,9 @@ public class StartExperience : MonoBehaviour
         alreadyContracted.transform.GetChild(0).GetComponent<Text>().text = "Already Had Covid-19?";
         alreadyContracted.transform.GetChild(1).GetComponent<Text>().text = "Ever after recovering from COVID-19, a vaccination can help reduce the risk of contracting COVID-19 again, and reduce the severity if you do get sick.";
         alreadyContracted.GetComponent<AudioSource>().clip = GameObject.Find("Already Contracted").GetComponent<AudioSource>().clip;
+        GameObject.Find("How Long").GetComponent<AudioSource>().Stop();
+        GameObject.Find("Vaccine Contents").GetComponent<AudioSource>().Stop();
+        GameObject.Find("Covid 19 Safe").GetComponent<AudioSource>().Stop();
         alreadyContracted.GetComponent<AudioSource>().Play();
         Destroy(alreadyContracted, 10);
     }
@@ -116,6 +122,11 @@ public class StartExperience : MonoBehaviour
         vaccineContents.transform.GetChild(1).GetComponent<Text>().text = "While vaccine contents vary by manufacturer, there are no eggs, gelatine, preservatives, metals, or microelectronics contained in any vaccine. No vaccine contains any live virus.";
         vaccineContents.GetComponent<AudioSource>().clip = GameObject.Find("Vaccine Contents").GetComponent<AudioSource>().clip;
         vaccineContents.GetComponent<AudioSource>().Play();
+
+        GameObject.Find("How Long").GetComponent<AudioSource>().Stop();
+        GameObject.Find("Already Contracted").GetComponent<AudioSource>().Stop();
+        GameObject.Find("Covid 19 Safe").GetComponent<AudioSource>().Stop();
+
         Destroy(vaccineContents, 10);
 
     }
@@ -134,6 +145,10 @@ public class StartExperience : MonoBehaviour
         //audios[6].Play();
         howLong.GetComponent<AudioSource>().clip = GameObject.Find("How Long").GetComponent<AudioSource>().clip;
         howLong.GetComponent<AudioSource>().Play();
+
+        GameObject.Find("Vaccine Contents").GetComponent<AudioSource>().Stop();
+        GameObject.Find("Already Contracted").GetComponent<AudioSource>().Stop();
+        GameObject.Find("Covid 19 Safe").GetComponent<AudioSource>().Stop();
         Destroy(howLong, 10);
         
     }
