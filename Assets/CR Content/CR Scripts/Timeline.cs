@@ -27,7 +27,7 @@ public class Timeline : MonoBehaviour
     private float t = 0, tr = 0 , tb=0;
     public float duration;
     public GameObject parent;
-    public AudioSource cough, forceFieldSound;
+    public AudioSource cough, forceFieldSound, respiratorSound;
 
 
     // public Material lungMaterial;
@@ -171,6 +171,7 @@ public class Timeline : MonoBehaviour
                // Debug.Log("Temp " + closeShieldVal);
                 shieldRenderer.material.SetFloat("_disolve", closeShieldVal);
             }
+            StartCoroutine(CloseShield());
 
         }
 
@@ -286,6 +287,7 @@ public class Timeline : MonoBehaviour
     public void LungFailure()
     {
         //state.SetText("Lung Failure");
+        respiratorSound.Play();
         state.text = "Lung Failure";
         respirator.SetActive(true);
 
@@ -318,6 +320,7 @@ public class Timeline : MonoBehaviour
     {
         //forceField.SetActive(false);
         closeShieldTrigger = true;
+
         //state.SetText("Free Form");
         state.text = "Free Form";
         // Debug.Log("Free Form");
@@ -514,6 +517,12 @@ public class Timeline : MonoBehaviour
         tempAlphaValue = 1;
         tempParticleValue = 0;
         tempPneuValue = 0;
+    }
+
+    IEnumerator CloseShield()
+    {
+        yield return new WaitForSeconds(3);
+        forceField.SetActive(false);
     }
 
 
