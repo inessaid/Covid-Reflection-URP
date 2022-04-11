@@ -28,6 +28,7 @@ public class Timeline : MonoBehaviour
     public float duration;
     public GameObject parent;
     public AudioSource cough, forceFieldSound, respiratorSound;
+    public Text description;
 
 
     // public Material lungMaterial;
@@ -146,7 +147,7 @@ public class Timeline : MonoBehaviour
             //float temp = Mathf.Lerp(-0.2f, 1.2f, Time.time * speed);
             //Debug.Log("Temp " + temp);
             //shieldRenderer.material.SetFloat("_disolve", temp);
-            if (tempShieldVal > -0.2f)
+            if (tempShieldVal > -0.1f)
             {
 
                 tempShieldVal -= speed * Time.deltaTime;
@@ -165,13 +166,13 @@ public class Timeline : MonoBehaviour
             //float temp = Mathf.Lerp(-0.2f, 1.2f, Time.time * speed);
             //Debug.Log("Temp " + temp);
             //shieldRenderer.material.SetFloat("_disolve", temp);
-            if (closeShieldVal < 2.2f)
+            if (closeShieldVal < 1.1f)
             {
                 closeShieldVal += speed * Time.deltaTime;
                // Debug.Log("Temp " + closeShieldVal);
                 shieldRenderer.material.SetFloat("_disolve", closeShieldVal);
             }
-            StartCoroutine(CloseShield());
+           // StartCoroutine(CloseShield());
 
         }
 
@@ -200,6 +201,7 @@ public class Timeline : MonoBehaviour
         lungRenderer.material.SetFloat("_particle_trigger", 0f);
         lungRenderer.material.SetFloat("_base_trigger", 1f);
         lungRenderer.material.SetFloat("_pneumonia_trigger", 0f);
+        description.text = "COVID REFLECTIONS";
     }
     public void PreCovid()
     {
@@ -221,6 +223,7 @@ public class Timeline : MonoBehaviour
         sliderGB.SetActive(true);
         Destroy(GameObject.Find("Start"));
         //GameObject.FindGameObjectWithTag("Logo").SetActive(false);
+        description.text = "YOU'RE HEALTHY!";
 
     }
     public void FirstExposure()
@@ -234,6 +237,7 @@ public class Timeline : MonoBehaviour
         var myprefabLocation = body.transform.position + germCloudPosition;
         Instantiate(germCloud, myprefabLocation, Quaternion.identity);
         cough.Play();
+        description.text = "COVID-19 TRAVELS THROUGH THE AIR";
     }
     public void TravelToLungs()
     {
@@ -252,6 +256,8 @@ public class Timeline : MonoBehaviour
         // Covid particle goes into lungs
         covidParticle.SetActive(true);
 
+        description.text = "PARTICLES ENTER THROUGH NOSE, EYES AND MOUTH";
+
 
 
     }
@@ -269,6 +275,7 @@ public class Timeline : MonoBehaviour
         // lungRenderer.material.SetFloat("_particle_trigger", 1f);
         lungRenderer.material.SetFloat("_base_trigger", 0f);
         lungRenderer.material.SetFloat("_pneumonia_trigger", 0f);
+        description.text = "1 TO 14 DAYS AFTER EXPOSURE";
     }
     public void CovidWorsens()
     {
@@ -283,6 +290,7 @@ public class Timeline : MonoBehaviour
         lungRenderer.material.SetFloat("_base_trigger", 0f);
         pneumoniaTrigger = true;
         //lungRenderer.material.SetFloat("_pneumonia_trigger", 1f);
+        description.text = "LIFE THREATENING SYMPTOMS MAY OCCUR";
     }
     public void LungFailure()
     {
@@ -297,10 +305,11 @@ public class Timeline : MonoBehaviour
         //humanRenderer.materials[2].SetColor("_edge_color", red);
         audios[5].Play();
         // Debug.Log("Lung Failure");
+        description.text = "VENTILATOR ASSISTS WHEN LUNGS FAIL";
     }
     public void BenefitOfVaccination()
     {
-        forceField.SetActive(true);
+       // forceField.SetActive(true);
         forceFieldSound.Play();
         respirator.SetActive(false);
         //state.SetText("Benefit Of Vaccination");
@@ -316,6 +325,7 @@ public class Timeline : MonoBehaviour
         lungRenderer.material.SetFloat("_base_trigger", 1f);
         lungRenderer.material.SetFloat("_pneumonia_trigger", 0f);
         // Debug.Log("Benefit Of Vaccination");
+        description.text = "GET VACCINATED, STAY HEALTHY!";
     }
     public void FreeForm()
     {
@@ -328,20 +338,21 @@ public class Timeline : MonoBehaviour
         for (int i = 0; i < 2; i++)
         {
             // right Button
-            var prefabLocationRight = body.transform.localPosition + new Vector3(0.5f, i - 0.4f, 0f);
+            var prefabLocationRight = body.transform.localPosition + new Vector3(0.5f, i - 0.2f, 0f);
             var instantiatedButtonRight = Instantiate(sampleButton, prefabLocationRight, Quaternion.identity);
             instantiatedButtonRight.gameObject.name = "right" + " " + i.ToString();
             instantiatedButtonRight.transform.parent = parent.transform;
 
             // Left Button
 
-            var prefabLocationLeft = body.transform.localPosition + new Vector3(-0.5f, i - 0.4f, 0f);
+            var prefabLocationLeft = body.transform.localPosition + new Vector3(-0.5f, i - 0.2f, 0f);
             var instantiatedButtonLeft = Instantiate(sampleButton, prefabLocationLeft, Quaternion.identity);
             instantiatedButtonLeft.gameObject.name = "left" + " " + i.ToString();
            // instantiatedButtonLeft.transform.parent = parent.transform;
 
 
         }
+        description.text = "COVID REFLECTIONS FAQ";
     }
     public void EndScreen()
     {
