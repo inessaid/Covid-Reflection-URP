@@ -55,7 +55,7 @@ public class StartExperience : MonoBehaviour
             }
             else
             {
-                this.gameObject.SetActive(false);
+                
                 switch(this.gameObject.name)
                 {
                     case "right 0":
@@ -72,6 +72,7 @@ public class StartExperience : MonoBehaviour
                         break;
                     
                 }
+                Destroy(this.gameObject);
             }
         }
       //  timeline.PreCovid();

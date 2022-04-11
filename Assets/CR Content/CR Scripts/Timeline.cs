@@ -215,7 +215,7 @@ public class Timeline : MonoBehaviour
         logo.SetActive(false);
         // enable logo
         sliderGB.SetActive(true);
-        GameObject.Find("Start").SetActive(false);
+        Destroy(GameObject.Find("Start"));
         //GameObject.FindGameObjectWithTag("Logo").SetActive(false);
 
     }
@@ -380,22 +380,26 @@ public class Timeline : MonoBehaviour
     {
         if (GameObject.Find("right 0"))
         {
-            GameObject.Find("right 0").SetActive(false);
+            //GameObject.Find("right 0").SetActive(false);
+            Destroy(GameObject.Find("right 0"));
         }
 
         if (GameObject.Find("right 1"))
         {
-            GameObject.Find("right 1").SetActive(false);
+            //GameObject.Find("right 1").SetActive(false);
+            Destroy(GameObject.Find("right 1"));
         }
 
         if (GameObject.Find("left 0"))
         {
-            GameObject.Find("left 0").SetActive(false);
+            //GameObject.Find("left 0").SetActive(false);
+            Destroy(GameObject.Find("left 0"));
         }
 
         if (GameObject.Find("left 1"))
         {
-            GameObject.Find("left 1").SetActive(false);
+            //GameObject.Find("left 1").SetActive(false);
+            Destroy(GameObject.Find("left 1"));
         }
 
     }
