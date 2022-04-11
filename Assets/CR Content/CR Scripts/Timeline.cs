@@ -300,6 +300,7 @@ public class Timeline : MonoBehaviour
     }
     public void BenefitOfVaccination()
     {
+        forceField.SetActive(true);
         forceFieldSound.Play();
         respirator.SetActive(false);
         //state.SetText("Benefit Of Vaccination");
@@ -327,18 +328,17 @@ public class Timeline : MonoBehaviour
         for (int i = 0; i < 2; i++)
         {
             // right Button
-            var prefabLocationRight = body.transform.localPosition + new Vector3(0.6f, i - 0.3f, 0f);
+            var prefabLocationRight = body.transform.localPosition + new Vector3(0.5f, i - 0.4f, 0f);
             var instantiatedButtonRight = Instantiate(sampleButton, prefabLocationRight, Quaternion.identity);
             instantiatedButtonRight.gameObject.name = "right" + " " + i.ToString();
             instantiatedButtonRight.transform.parent = parent.transform;
 
-
             // Left Button
 
-            var prefabLocationLeft = body.transform.localPosition + new Vector3(-0.6f, i - 0.3f, 0f);
+            var prefabLocationLeft = body.transform.localPosition + new Vector3(-0.5f, i - 0.4f, 0f);
             var instantiatedButtonLeft = Instantiate(sampleButton, prefabLocationLeft, Quaternion.identity);
             instantiatedButtonLeft.gameObject.name = "left" + " " + i.ToString();
-            instantiatedButtonLeft.transform.parent = parent.transform;
+           // instantiatedButtonLeft.transform.parent = parent.transform;
 
 
         }
