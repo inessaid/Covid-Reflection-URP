@@ -34,7 +34,7 @@ public class StartExperience : MonoBehaviour
     void Update()
     {
         body = GameObject.Find("Body");
-        this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, body.transform.position.z);
+      //  this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, body.transform.position.z);
     }
 
     private void OnTriggerStay(Collider other)

@@ -26,6 +26,7 @@ public class Timeline : MonoBehaviour
     public float intensity = 0.2f;
     private float t = 0, tr = 0 , tb=0;
     public float duration;
+    public GameObject parent;
 
 
     // public Material lungMaterial;
@@ -188,6 +189,7 @@ public class Timeline : MonoBehaviour
         var prefabLocation = body.transform.localPosition + startButtonPosition;
         var instantiatedButton = Instantiate(sampleButton, prefabLocation, Quaternion.identity);
         instantiatedButton.gameObject.name = "Start";
+        instantiatedButton.transform.parent = parent.transform;
 
         state.gameObject.SetActive(false);
         sliderGB.SetActive(false);
@@ -322,6 +324,7 @@ public class Timeline : MonoBehaviour
             var prefabLocationRight = body.transform.localPosition + new Vector3(0.5f, i - 0.1f, 0f);
             var instantiatedButtonRight = Instantiate(sampleButton, prefabLocationRight, Quaternion.identity);
             instantiatedButtonRight.gameObject.name = "right" + " " + i.ToString();
+            instantiatedButtonRight.transform.parent = parent.transform;
 
 
             // Left Button
@@ -329,6 +332,7 @@ public class Timeline : MonoBehaviour
             var prefabLocationLeft = body.transform.localPosition + new Vector3(-0.5f, i - 0.1f, 0f);
             var instantiatedButtonLeft = Instantiate(sampleButton, prefabLocationLeft, Quaternion.identity);
             instantiatedButtonLeft.gameObject.name = "left" + " " + i.ToString();
+            instantiatedButtonLeft.transform.parent = parent.transform;
 
 
         }
