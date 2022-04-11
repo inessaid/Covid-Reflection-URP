@@ -148,7 +148,7 @@ public class Timeline : MonoBehaviour
             {
 
                 tempShieldVal -= speed * Time.deltaTime;
-                Debug.Log("Temp " + tempShieldVal);
+                //Debug.Log("Temp " + tempShieldVal);
                 shieldRenderer.material.SetFloat("_disolve", tempShieldVal);
             }
             else
@@ -166,7 +166,7 @@ public class Timeline : MonoBehaviour
             if (closeShieldVal < 2.2f)
             {
                 closeShieldVal += speed * Time.deltaTime;
-                Debug.Log("Temp " + closeShieldVal);
+               // Debug.Log("Temp " + closeShieldVal);
                 shieldRenderer.material.SetFloat("_disolve", closeShieldVal);
             }
 

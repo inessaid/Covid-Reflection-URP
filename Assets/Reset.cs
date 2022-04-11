@@ -20,7 +20,7 @@ public class Reset : MonoBehaviour
         timer = timerScript.timeRemaining;
         if (timer < 1)
         {
-            timerScript.timeRemaining = 130;
+            timerScript.timeRemaining = 150;
             timeline.SetActive(false);
             timeline.SetActive(true);
         }
