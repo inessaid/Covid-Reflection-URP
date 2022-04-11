@@ -12,6 +12,7 @@ public class StartExperience : MonoBehaviour
     private int i = 0;
     private float  growFactor =0 ;
     public string buttonOption;
+    public AudioSource buttonPop;
     //public GameObject audioGB;
     //public AudioSource howLong;
 
@@ -28,6 +29,7 @@ public class StartExperience : MonoBehaviour
         answerTextBody = GameObject.Find("EditorLorem");
         //audioGB = GameObject.Find("Audios");
         //howLong = audioGB.transform.Find("How Long").gameObject.GetComponent<AudioSource>();
+        buttonPop = GameObject.Find("ButtonPop").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -36,15 +38,20 @@ public class StartExperience : MonoBehaviour
         body = GameObject.Find("Body");
       //  this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, body.transform.position.z);
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        buttonPop.Play();
+    }
 
     private void OnTriggerStay(Collider other)
     {
         i++;
         growFactor = growFactor + 0.00001f ;
-
+        
        // Debug.Log("Grow factor" + growFactor);
        // Debug.Log("Triggered");
        // Debug.Log(i);
+
         this.gameObject.transform.localScale = this.gameObject.transform.localScale  + new Vector3(growFactor ,growFactor ,growFactor);
 
         if (i==120)
