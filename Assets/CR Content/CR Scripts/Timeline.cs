@@ -27,6 +27,7 @@ public class Timeline : MonoBehaviour
     private float t = 0, tr = 0 , tb=0;
     public float duration;
     public GameObject parent;
+    public AudioSource cough, forceFieldSound;
 
 
     // public Material lungMaterial;
@@ -231,6 +232,7 @@ public class Timeline : MonoBehaviour
         // instantiate Covid particles
         var myprefabLocation = body.transform.position + germCloudPosition;
         Instantiate(germCloud, myprefabLocation, Quaternion.identity);
+        cough.Play();
     }
     public void TravelToLungs()
     {
@@ -296,6 +298,7 @@ public class Timeline : MonoBehaviour
     }
     public void BenefitOfVaccination()
     {
+        forceFieldSound.Play();
         respirator.SetActive(false);
         //state.SetText("Benefit Of Vaccination");
         state.text = "Benefit Of Vaccination";
@@ -321,7 +324,7 @@ public class Timeline : MonoBehaviour
         for (int i = 0; i < 2; i++)
         {
             // right Button
-            var prefabLocationRight = body.transform.localPosition + new Vector3(0.5f, i - 0.1f, 0f);
+            var prefabLocationRight = body.transform.localPosition + new Vector3(0.6f, i - 0.3f, 0f);
             var instantiatedButtonRight = Instantiate(sampleButton, prefabLocationRight, Quaternion.identity);
             instantiatedButtonRight.gameObject.name = "right" + " " + i.ToString();
             instantiatedButtonRight.transform.parent = parent.transform;
@@ -329,7 +332,7 @@ public class Timeline : MonoBehaviour
 
             // Left Button
 
-            var prefabLocationLeft = body.transform.localPosition + new Vector3(-0.5f, i - 0.1f, 0f);
+            var prefabLocationLeft = body.transform.localPosition + new Vector3(-0.6f, i - 0.3f, 0f);
             var instantiatedButtonLeft = Instantiate(sampleButton, prefabLocationLeft, Quaternion.identity);
             instantiatedButtonLeft.gameObject.name = "left" + " " + i.ToString();
             instantiatedButtonLeft.transform.parent = parent.transform;
