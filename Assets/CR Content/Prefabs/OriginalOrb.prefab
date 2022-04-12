@@ -127,8 +127,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.6246758, y: 3.2299955, z: 3.774462}
-  m_Center: {x: 0.025097346, y: -0.013711814, z: 0.26187104}
+  m_Size: {x: 3.6246758, y: 5.0026565, z: 5.12708}
+  m_Center: {x: 0.025097346, y: -0.089767456, z: 0.18265422}
 --- !u!114 &-338664773146625488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,4 +145,5 @@ MonoBehaviour:
   UIprefab: {fileID: 1711856640626048269, guid: 70a17198d66713048bd51b8d7749b631, type: 3}
   timeline: {fileID: 0}
   buttonOption: 
+  buttonPop: {fileID: 0}
   answerTextBody: {fileID: 0}
